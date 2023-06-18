@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Test.Controllers;
+namespace Scheduler.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,4 +1,4 @@
-namespace Test;
+namespace Scheduler;
 
 public class WeatherForecast
 {

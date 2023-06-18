@@ -1,0 +1,5 @@
+src/.vs/
+.vs/
+obj/
+**/bin/
+**/obj/
