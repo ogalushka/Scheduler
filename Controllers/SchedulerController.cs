@@ -24,30 +24,47 @@ public class SchedulerController : ControllerBase
 
     [HttpGet]
     [Route("/schedule")]
-    public async Task<ActionResult<Week[]>> GetSchedule()
+    public async Task<ActionResult<ScheduleDto>> GetSchedule()
     {
         var schedule = await scheduleRepository.Get("Tomorrow");
-
         var attendance = new List<Guid>();
-        IReadOnlyCollection<FollowingData> following = Array.Empty<FollowingData>();
+        IReadOnlyCollection<UserEntity> following = Array.Empty<UserEntity>();
 
         var user = await GetUser();
         if (user != null)
         {
             attendance = user.Attending;
-            var followingIds = user.Following.Select(f => f.Id).ToArray();
-            var followingUsers = await userRepository.GetAll(userRepository.filter.In(u => u.PublicId, followingIds));
-
-            following = followingUsers.Select(u => new FollowingData(u, GetNameById(u.PublicId))).ToArray();
-
-            string GetNameById(Guid id)
-            {
-                var match = user.Following.Find(u => u.Id == id);
-                return match != null ? match.Name : "";
-            }
+            following = await userRepository.GetAll(userRepository.filter.In(u => u.PublicId, user.Following));
         }
+        var result = BuildScheduleResponce(schedule, user, user, attendance, following);
+        return Ok(result);
+    }
 
-        var result = schedule.Weeks.Select((w, i) =>
+    [HttpGet]
+    [Route("/schedule/{publicId}")]
+    public async Task<ActionResult<ScheduleDto>> GetSchedule(string publicId)
+    {
+        var schedule = await scheduleRepository.Get("Tomorrow");
+        var following = Array.Empty<UserEntity>();
+        var otherUser = await userRepository.Get(Guid.Parse(publicId));
+        if (otherUser == null)
+        {
+            return NotFound();
+        }
+        var attendance = otherUser.Attending;
+
+        var user = await GetUser();
+        if (user != null)
+        {
+            following = new UserEntity[] { user };
+        }
+        var result = BuildScheduleResponce(schedule, user, otherUser, attendance, following);
+        return Ok(result);
+    }
+
+    private ScheduleDto BuildScheduleResponce(ScheduleEntity schedule, UserEntity? me, UserEntity? owner, IReadOnlyCollection<Guid> attendance, IReadOnlyCollection<UserEntity> following)
+    {
+        var weeks = schedule.Weeks.Select((w, i) =>
             new Week
             {
                 WeekName = w.Name,
@@ -57,20 +74,27 @@ public class SchedulerController : ControllerBase
                     {
                         Date = d.Date,
                         WeekDay = d.Name,
-                        Stages = d.Locations.Select(l => new Location 
-                        { 
+                        Stages = d.Locations.Select(l => new Location
+                        {
                             Stage = l.Name,
                             Artists = l.Events.Select(e => BuildEvent(e, attendance, following)).ToArray()
                         }).ToArray()
                     }).ToArray()
             }).ToArray();
 
-        return Ok(result);
+        var meDto = me == null ? null : new Attendee { Id = me.PublicId, Name = me.Name };
+        var ownerDto = owner == null ? null : new Attendee { Id = owner.PublicId, Name = owner.Name };
+
+        return new ScheduleDto
+        {
+            Me = meDto,
+            Owner = ownerDto,
+            Schedule = weeks
+        };
     }
 
-    private Event BuildEvent(EventEntity e, List<Guid> attendance, IReadOnlyCollection<FollowingData> followingEntities)
+    private Event BuildEvent(EventEntity e, IReadOnlyCollection<Guid> attendance, IReadOnlyCollection<UserEntity> followingUsers)
     {
-        var followingAttending = followingEntities.Where(f => f.user.Attending.Contains(e.Id));
         return new Event
         {
             Id = e.Id,
@@ -79,12 +103,12 @@ public class SchedulerController : ControllerBase
             Artist = e.Artist,
 
             Attending = attendance.Contains(e.Id),
-            Atendees = followingEntities
-                .Where(f => f.user.Attending.Contains(e.Id))
-                .Select(f => new Atendee
+            Attendees = followingUsers
+                .Where(u => u.Attending.Contains(e.Id))
+                .Select(u => new Attendee
                 {
-                    Id = f.user.Id,
-                    Name = f.name
+                    Id = u.Id,
+                    Name = u.Name
                 }).ToArray()
         };
     }
@@ -94,6 +118,7 @@ public class SchedulerController : ControllerBase
     public async Task<ActionResult> ChangeStatus(Guid eventId, bool attending)
     {
         var userEntity = await GetOrCreateUser();
+
         var inList = userEntity.Attending.IndexOf(eventId) != -1;
         if (attending)
         {
@@ -123,17 +148,22 @@ public class SchedulerController : ControllerBase
         return Ok(user.Id.ToString());
     }
 
-    [HttpGet]
-    [Route("/share")]
-    public async Task<ActionResult<string>> GetShare()
+    [HttpPost]
+    [Route("/name")]
+    public async Task<ActionResult<Attendee>> GetShare(string name)
     {
         var user = await GetOrCreateUser();
-        return Ok(user.PublicId.ToString());
+        if (user.Name != name)
+        {
+            user.Name = name;
+            await userRepository.Update(user);
+        }
+        return Ok(new Attendee { Id = user.PublicId, Name = user.Name });
     }
 
-    [HttpGet]
+    [HttpPost]
     [Route("/follow")]
-    public async Task<IActionResult> Follow(Guid publicId, string name)
+    public async Task<IActionResult> Follow(Guid publicId)
     {
         var toFollow = await userRepository.Get(u => u.PublicId == publicId);
 
@@ -144,25 +174,25 @@ public class SchedulerController : ControllerBase
 
         var user = await GetOrCreateUser();
 
-        var following = user.Following.Any(u => u.Id == publicId);
+        var following = user.Following.Contains(publicId);
 
         if (following)
         {
             return Ok();
         }
 
-        user.Following.Add(new FollowingEntity { Id = publicId, Name = name });
+        user.Following.Add(publicId);
         await userRepository.Update(user);
 
         return Ok();
     }
 
-    [HttpGet]
+    [HttpPost]
     [Route("/unfollow")]
     public async Task<IActionResult> UnFollow(Guid publicId)
     {
         var user = await GetOrCreateUser();
-        var removeIndex = user.Following.FindIndex(u => u.Id == publicId);
+        var removeIndex = user.Following.IndexOf(publicId);
         if (removeIndex != -1)
         {
             user.Following.RemoveAt(removeIndex);
@@ -192,12 +222,13 @@ public class SchedulerController : ControllerBase
     private async Task<UserEntity> GetOrCreateUser()
     {
         var userId = GetUserId();
-        UserEntity userEntity;
+        UserEntity? userEntity = null;
         if (userId != null)
         {
             userEntity = await userRepository.Get(userId.Value);
         }
-        else
+
+        if (userEntity == null)
         {
             userEntity = await CreateUser();
             await HttpContext.SignInAsync(Convert(userEntity.Id));
@@ -224,66 +255,13 @@ public class SchedulerController : ControllerBase
         userEntity.PublicId = Guid.NewGuid();
         userEntity.Id = Guid.NewGuid();
         userEntity.Attending = new List<Guid>();
-        userEntity.Following = new List<FollowingEntity>();
+        userEntity.Following = new List<Guid>();
 
         await userRepository.Create(userEntity);
 
         return userEntity;
     }
 
-    [HttpPost]
-    [Route("/seed")]
-    public async Task<ActionResult> Seed()
-    {
-        await scheduleRepository.Remove("Tomorrow");
-
-        var schedule = new ScheduleEntity("Tomorrow", new WeekEntity[] {
-            new WeekEntity("Week 1", new DayEntity[] {
-                new DayEntity(new DateOnly(2023, 6, 18), "Sunday", new LocationEntity[] {
-                    new LocationEntity("Stage 1", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 18, 16, 00, 00), new DateTime(2023, 6, 18, 17, 0, 0), "Dude 1"),
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 18, 17, 00, 00), new DateTime(2023, 6, 18, 18, 0, 0), "Dude 2")
-                    }),
-                    new LocationEntity("Stage 2", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 18, 16, 00, 00), new DateTime(2023, 6, 18, 18, 0, 0), "Dude 3"),
-                    })
-                }),
-                new DayEntity(new DateOnly(2023, 6, 19), "Monday", new LocationEntity[] {
-                    new LocationEntity("Stage 1", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 19, 16, 00, 00), new DateTime(2023, 6, 19, 17, 0, 0), "Dude 3"),
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 19, 17, 00, 00), new DateTime(2023, 6, 19, 18, 0, 0), "Dude 2"),
-                    }),
-                    new LocationEntity("Stage 2", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 19, 16, 00, 00), new DateTime(2023, 6, 19, 18, 0, 0), "Dude 1"),
-                    }),
-                }),
-            }),
-            new WeekEntity("Week 2", new DayEntity[] {
-                new DayEntity(new DateOnly(2023, 6, 25), "Sunday", new LocationEntity[] {
-                    new LocationEntity("Stage 1", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 25, 16, 00, 00), new DateTime(2023, 6, 25, 17, 0, 0), "Dude 1"),
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 25, 17, 00, 00), new DateTime(2023, 6, 25, 18, 0, 0), "Dude 2")
-                    }),
-                    new LocationEntity("Stage 2", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 25, 16, 00, 00), new DateTime(2023, 6, 25, 18, 0, 0), "Dude 3"),
-                    })
-                }),
-                new DayEntity(new DateOnly(2023, 6, 26), "Monday", new LocationEntity[] {
-                    new LocationEntity("Stage 1", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 26, 16, 00, 00), new DateTime(2023, 6, 26, 17, 0, 0), "Dude 3"),
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 26, 17, 00, 00), new DateTime(2023, 6, 26, 18, 0, 0), "Dude 2"),
-                    }),
-                    new LocationEntity("Stage 2", new EventEntity[] {
-                        new EventEntity(Guid.NewGuid(), new DateTime(2023, 6, 26, 16, 00, 00), new DateTime(2023, 6, 26, 18, 0, 0), "Dude 1"),
-                    }),
-                }),
-            }),
-        });
-
-        await scheduleRepository.Create(schedule);
-
-        return Ok();
-    }
 
     private Guid? GetUserId()
     {
@@ -307,5 +285,3 @@ public class SchedulerController : ControllerBase
         return new ClaimsPrincipal(identity);
     }
 }
-
-public record class FollowingData(UserEntity user, string name);

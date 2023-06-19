@@ -24,13 +24,13 @@ if (mongoSettings == null)
 }
 
 builder.Services.SetupRepository<string, ScheduleEntity>(mongoSettings.ScheduleCollection);
-builder.Services.SetupRepository<Guid, UserEntity>(mongoSettings.ScheduleCollection);
+builder.Services.SetupRepository<Guid, UserEntity>(mongoSettings.UserCollection);
 
 var app = builder.Build();
 app.MapHealthChecks("/health");
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();

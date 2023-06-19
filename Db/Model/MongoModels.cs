@@ -16,7 +16,22 @@ public class ScheduleEntity : IEntity<string>
 public record WeekEntity(string Name, DayEntity[] Days);
 public record DayEntity(DateOnly Date, string Name, LocationEntity[] Locations);
 public record LocationEntity(string Name, EventEntity[] Events);
-public record EventEntity(Guid Id, DateTime Start, DateTime End, string Artist);
+
+public class EventEntity
+{
+    public EventEntity(Guid id, DateTime start, DateTime end, string artist)
+    {
+        Id = id;
+        Start = start;
+        End = end;
+        Artist = artist;
+    }
+
+    public Guid Id { get; set; }
+    public DateTime Start { get; set; }
+    public DateTime End { get; set; }
+    public string Artist { get; set; }
+}
 
 
 
@@ -26,12 +41,7 @@ public class UserEntity : IEntity<Guid>
     public Guid Id { get; set; }
     public Guid PublicId { get; set; }
 
-    public List<Guid> Attending = null!;
-    public List<FollowingEntity> Following = null!;
-}
-
-public class FollowingEntity
-{
-    public Guid Id { get; set; }
     public string Name { get; set; } = "";
+    public List<Guid> Attending { get; set; } = null!;
+    public List<Guid> Following { get; set; } = null!;
 }

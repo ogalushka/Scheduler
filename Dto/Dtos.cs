@@ -8,7 +8,7 @@ public class Event
     public DateTime TimeEnd { get; set; }
     public string Artist { get; set; } = "";
     public bool Attending { get; set; }
-    public Atendee[] Atendees { get; set; } = Array.Empty<Atendee>();
+    public Attendee[] Attendees { get; set; } = Array.Empty<Attendee>();
 }
 
 public class Day
@@ -35,8 +35,15 @@ public class Week
     public Day[] Days { get; set; } =  Array.Empty<Day>();
 }
 
-public class Atendee
+public class Attendee
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = "";
+}
+
+public class ScheduleDto
+{
+    public Attendee? Me { get; set; } = null;
+    public Attendee? Owner { get; set; } = null;
+    public Week[] Schedule { get; set; } = Array.Empty<Week>();
 }
