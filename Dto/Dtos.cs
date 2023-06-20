@@ -4,8 +4,8 @@ public class Event
 {
     public Guid Id { get; set; }
 
-    public DateTime TimeStart { get; set; }
-    public DateTime TimeEnd { get; set; }
+    public DateTime? TimeStart { get; set; }
+    public DateTime? TimeEnd { get; set; }
     public string Artist { get; set; } = "";
     public bool Attending { get; set; }
     public Attendee[] Attendees { get; set; } = Array.Empty<Attendee>();
@@ -27,9 +27,6 @@ public class Location
 
 public class Week
 {
-    public DateOnly StartDate { get; set; }
-    public DateOnly EndDate { get; set; }
-
     public string WeekName { get; set; } = "";
     public int WeekNumber { get; set; }
     public Day[] Days { get; set; } =  Array.Empty<Day>();

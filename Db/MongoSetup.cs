@@ -3,6 +3,7 @@ using MongoDB.Bson.Serialization;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Scheduler.Settings;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace Scheduler.Db
 {
@@ -12,6 +13,7 @@ namespace Scheduler.Db
         {
             BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
             BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String));
+            services.AddDataProtection().PersistKeysToMongoDb(sp => sp.GetRequiredService<IMongoDatabase>());
 
             services.AddSingleton(sp =>
             {

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using MongoDB.Driver;
+using Microsoft.OpenApi.Models;
 using Scheduler.Db;
 using Scheduler.Db.Models;
 using Scheduler.Settings;
@@ -7,6 +7,7 @@ using Scheduler.Settings;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//"Connection": "mongodb://localhost:27017",
 
 builder.Services.AddControllers();
 builder.Services.AddAuthorization();
@@ -32,7 +33,16 @@ app.MapHealthChecks("/health");
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+
+    var apiPath = builder.Configuration.GetValue<string>("BaseApiPath") ?? "/";
+    app.UseSwagger(c =>
+    {
+        c.PreSerializeFilters.Add((swaggerDoc, httpReq) =>
+        {
+            swaggerDoc.Servers = new List<OpenApiServer> { new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}{apiPath}" } };
+        });
+
+    });
     app.UseSwaggerUI();
 }
 

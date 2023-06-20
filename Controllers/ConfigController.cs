@@ -16,7 +16,7 @@ public class ConfigController : ControllerBase
     }
 
     [HttpGet]
-    [Route("/")]
+    [Route("/config")]
     public async Task<ActionResult<IReadOnlyCollection<ScheduleEntity>>> GetAll()
     {
         var allSchedules = await scheduleRepository.GetAll();
@@ -24,7 +24,7 @@ public class ConfigController : ControllerBase
     }
 
     [HttpPost]
-    [Route("/")]
+    [Route("/config")]
     public async Task<ActionResult<ScheduleEntity>> AddSchedule([FromBody] ScheduleEntity schedule)
     {
         var exists = await scheduleRepository.Get(schedule.Id);
@@ -41,7 +41,7 @@ public class ConfigController : ControllerBase
     }
 
     [HttpPut]
-    [Route("/")]
+    [Route("/config")]
     public async Task<ActionResult<ScheduleEntity>> UpdateSchedule([FromBody] ScheduleEntity schedule)
     {
         var exists = await scheduleRepository.Get(schedule.Id);
@@ -58,7 +58,7 @@ public class ConfigController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("/")]
+    [Route("/config")]
     public async Task<ActionResult<ScheduleEntity>> DeleteSchedule(string scheduleId)
     {
         var schedule = await scheduleRepository.Get(scheduleId);
