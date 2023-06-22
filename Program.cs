@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi.Models;
 using Scheduler.Db;
 using Scheduler.Db.Models;
@@ -33,13 +34,18 @@ app.MapHealthChecks("/health");
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 {
-
     var apiPath = builder.Configuration.GetValue<string>("BaseApiPath") ?? "/";
     app.UseSwagger(c =>
     {
         c.PreSerializeFilters.Add((swaggerDoc, httpReq) =>
         {
-            swaggerDoc.Servers = new List<OpenApiServer> { new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}{apiPath}" } };
+            swaggerDoc.Servers = new List<OpenApiServer> { 
+                new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}{apiPath}" },
+                new OpenApiServer { Url = $"https://{httpReq.Host.Value}{apiPath}" } 
+            };
+        });
+        c.PreSerializeFilters.Add((swaggerDoc, httpReq) =>
+        {
         });
 
     });

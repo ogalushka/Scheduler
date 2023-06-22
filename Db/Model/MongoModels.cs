@@ -19,7 +19,7 @@ public record LocationEntity(string Name, EventEntity[] Events);
 
 public class EventEntity
 {
-    public EventEntity(Guid id, DateTime? start, DateTime? end, string artist)
+    public EventEntity(Guid id, DateTime start, DateTime end, string artist)
     {
         Id = id;
         Start = start;
@@ -28,8 +28,8 @@ public class EventEntity
     }
 
     public Guid Id { get; set; }
-    public DateTime? Start { get; set; }
-    public DateTime? End { get; set; }
+    public DateTime Start { get; set; }
+    public DateTime End { get; set; }
     public string Artist { get; set; }
 }
 
