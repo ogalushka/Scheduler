@@ -34,7 +34,6 @@ public class EventEntity
 }
 
 
-
 //Users
 public class UserEntity : IEntity<Guid>
 {

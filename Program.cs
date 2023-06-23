@@ -19,6 +19,13 @@ builder.Services.AddHealthChecks();
 builder.Services.AddSwaggerGen();
 builder.Services.SetupDb();
 
+var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>() ?? Array.Empty<string>();
+builder.Services.AddCors(o => o.AddDefaultPolicy(policy =>
+        {
+            policy.WithOrigins(allowedOrigins).AllowAnyHeader().AllowAnyMethod();
+        })
+);
+
 var mongoSettings = builder.Configuration.GetSection(nameof(MongoSettings))?.Get<MongoSettings>();
 if (mongoSettings == null)
 {
@@ -29,6 +36,7 @@ builder.Services.SetupRepository<string, ScheduleEntity>(mongoSettings.ScheduleC
 builder.Services.SetupRepository<Guid, UserEntity>(mongoSettings.UserCollection);
 
 var app = builder.Build();
+app.UseCors();
 app.MapHealthChecks("/health");
 
 // Configure the HTTP request pipeline.
@@ -53,9 +61,7 @@ app.MapHealthChecks("/health");
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
