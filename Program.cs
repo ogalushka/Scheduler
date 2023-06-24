@@ -4,20 +4,22 @@ using Microsoft.OpenApi.Models;
 using Scheduler.Db;
 using Scheduler.Db.Models;
 using Scheduler.Settings;
+using Scheduler.Tracking;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-//"Connection": "mongodb://localhost:27017",
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
 builder.Services.AddControllers();
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme);
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHealthChecks();
 builder.Services.AddSwaggerGen();
+
 builder.Services.SetupDb();
+builder.Services.SetupTracking();
 
 var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>() ?? Array.Empty<string>();
 builder.Services.AddCors(o => o.AddDefaultPolicy(policy =>

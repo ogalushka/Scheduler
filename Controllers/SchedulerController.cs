@@ -5,6 +5,7 @@ using MongoDB.Driver;
 using Scheduler.Db;
 using Scheduler.Db.Models;
 using Scheduler.Dtos;
+using Scheduler.Tracking;
 using System.Security.Claims;
 
 namespace Scheduler.Controllers;
@@ -15,11 +16,16 @@ public class SchedulerController : ControllerBase
 {
     private readonly IRepository<string, ScheduleEntity> scheduleRepository;
     private readonly IRepository<Guid, UserEntity> userRepository;
+    private readonly TrackingClient tracking;
 
-    public SchedulerController(IRepository<string, ScheduleEntity> scheduleRepository, IRepository<Guid, UserEntity> userRepository)
+    public SchedulerController(
+        IRepository<string, ScheduleEntity> scheduleRepository,
+        IRepository<Guid, UserEntity> userRepository,
+        TrackingClient tracking)
     {
         this.scheduleRepository = scheduleRepository;
         this.userRepository = userRepository;
+        this.tracking = tracking;
     }
 
     [HttpGet]
@@ -36,6 +42,8 @@ public class SchedulerController : ControllerBase
             attendance = user.Attending;
             following = await userRepository.GetAll(userRepository.filter.In(u => u.PublicId, user.Following));
         }
+
+        await tracking.Test(Guid.NewGuid());
         var result = BuildScheduleResponce(schedule, user, user, attendance, following);
         return Ok(result);
     }
