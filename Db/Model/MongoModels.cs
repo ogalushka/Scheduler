@@ -1,3 +1,5 @@
+using MongoDB.Bson.Serialization.Attributes;
+
 namespace Scheduler.Db.Models;
 
 //Schedule
@@ -43,4 +45,6 @@ public class UserEntity : IEntity<Guid>
     public string Name { get; set; } = "";
     public List<Guid> Attending { get; set; } = null!;
     public List<Guid> Following { get; set; } = null!;
+    [BsonIgnore]
+    public bool SavedUser = true;
 }

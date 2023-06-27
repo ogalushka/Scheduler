@@ -36,14 +36,14 @@ public class SchedulerController : ControllerBase
         var attendance = new List<Guid>();
         IReadOnlyCollection<UserEntity> following = Array.Empty<UserEntity>();
 
-        var user = await GetUser();
-        if (user != null)
+        var user = await GetLoggedInUser();
+        if (user.SavedUser)
         {
             attendance = user.Attending;
             following = await userRepository.GetAll(userRepository.filter.In(u => u.PublicId, user.Following));
         }
 
-        await tracking.Test(Guid.NewGuid());
+        await tracking.Track(EventName.ScheduleViewed, user.Id);
         var result = BuildScheduleResponce(schedule, user, user, attendance, following);
         return Ok(result);
     }
@@ -53,7 +53,6 @@ public class SchedulerController : ControllerBase
     public async Task<ActionResult<ScheduleDto>> GetSchedule(string publicId)
     {
         var schedule = await scheduleRepository.Get("Tomorrow");
-        var following = Array.Empty<UserEntity>();
         var otherUser = await userRepository.Get(Guid.Parse(publicId));
         if (otherUser == null)
         {
@@ -61,16 +60,13 @@ public class SchedulerController : ControllerBase
         }
         var attendance = otherUser.Attending;
 
-        var user = await GetUser();
-        if (user != null)
-        {
-            following = new UserEntity[] { user };
-        }
+        var user = await GetLoggedInUser();
+        var following = new UserEntity[] { user };
         var result = BuildScheduleResponce(schedule, user, otherUser, attendance, following);
         return Ok(result);
     }
 
-    private ScheduleDto BuildScheduleResponce(ScheduleEntity schedule, UserEntity? me, UserEntity? owner, IReadOnlyCollection<Guid> attendance, IReadOnlyCollection<UserEntity> following)
+    private ScheduleDto BuildScheduleResponce(ScheduleEntity schedule, UserEntity me, UserEntity owner, IReadOnlyCollection<Guid> attendance, IReadOnlyCollection<UserEntity> following)
     {
         var weeks = schedule.Weeks.Select((w, i) =>
             new Week
@@ -90,8 +86,8 @@ public class SchedulerController : ControllerBase
                     }).ToArray()
             }).ToArray();
 
-        var meDto = me == null ? null : new Attendee { Id = me.PublicId, Name = me.Name };
-        var ownerDto = owner == null ? null : new Attendee { Id = owner.PublicId, Name = owner.Name };
+        var meDto = me.SavedUser ? new Attendee { Id = me.PublicId, Name = me.Name } : null;
+        var ownerDto = owner.SavedUser ? new Attendee { Id = owner.PublicId, Name = owner.Name } : null;
 
         return new ScheduleDto
         {
@@ -125,7 +121,7 @@ public class SchedulerController : ControllerBase
     [Route("/attend")]
     public async Task<ActionResult> ChangeStatus(Guid eventId, bool attending)
     {
-        var userEntity = await GetOrCreateUser();
+        var userEntity = await GetAndSaveUser();
 
         var inList = userEntity.Attending.IndexOf(eventId) != -1;
         if (attending)
@@ -134,6 +130,7 @@ public class SchedulerController : ControllerBase
             {
                 userEntity.Attending.Add(eventId);
                 await userRepository.Update(userEntity);
+                await tracking.Track(EventName.Attending, userEntity.Id, new Dictionary<string, object> { { TrackingClient.EventId, eventId } });
             }
         }
         else
@@ -152,7 +149,7 @@ public class SchedulerController : ControllerBase
     [Route("/secret")]
     public async Task<ActionResult<string>> GetSecret()
     {
-        var user = await GetOrCreateUser();
+        var user = await GetLoggedInUser();
         return Ok(user.Id.ToString());
     }
 
@@ -160,7 +157,7 @@ public class SchedulerController : ControllerBase
     [Route("/name")]
     public async Task<ActionResult<Attendee>> GetShare(string name)
     {
-        var user = await GetOrCreateUser();
+        var user = await GetAndSaveUser();
         if (user.Name != name)
         {
             user.Name = name;
@@ -180,7 +177,7 @@ public class SchedulerController : ControllerBase
             return NotFound("Following non existent user"); 
         }
 
-        var user = await GetOrCreateUser();
+        var user = await GetAndSaveUser();
 
         var following = user.Following.Contains(publicId);
 
@@ -191,6 +188,7 @@ public class SchedulerController : ControllerBase
 
         user.Following.Add(publicId);
         await userRepository.Update(user);
+        await tracking.Track(EventName.Followed, user.Id, new Dictionary<string, object> { { TrackingClient.OtherUserId, toFollow.Id } });
 
         return Ok();
     }
@@ -199,7 +197,7 @@ public class SchedulerController : ControllerBase
     [Route("/unfollow")]
     public async Task<IActionResult> UnFollow(Guid publicId)
     {
-        var user = await GetOrCreateUser();
+        var user = await GetAndSaveUser();
         var removeIndex = user.Following.IndexOf(publicId);
         if (removeIndex != -1)
         {
@@ -214,64 +212,78 @@ public class SchedulerController : ControllerBase
     [Route("/login")]
     public async Task<IActionResult> Login(string secretId)
     {
-        var guid = Guid.Parse(secretId);
-        var user = await userRepository.Get(guid);
-
-        if (user == null)
+        if (!Guid.TryParse(secretId, out var guid))
         {
-            return NotFound();
+            return NotFound("SecretId is an invalid guid");
         }
 
-        await HttpContext.SignInAsync(Convert(guid));
+        var user = CreateUser(guid);
+
+        await HttpContext.SignInAsync(Convert(user));
 
         return Ok();
     }
 
-    private async Task<UserEntity> GetOrCreateUser()
+    private async Task<UserEntity> GetAndSaveUser()
     {
-        var userId = GetUserId();
-        UserEntity? userEntity = null;
-        if (userId != null)
+        var user = await GetLoggedInUser();
+        if (!user.SavedUser)
         {
-            userEntity = await userRepository.Get(userId.Value);
+            await SaveUser(user);
         }
 
-        if (userEntity == null)
-        {
-            userEntity = await CreateUser();
-            await HttpContext.SignInAsync(Convert(userEntity.Id));
-        }
-
-        return userEntity;
+        return user;
     }
 
-    private async Task<UserEntity?> GetUser()
+    private async Task<UserEntity> GetLoggedInUser()
     {
-        var userId = GetUserId();
-        if (userId != null)
+        var userId = GetLoggedInUserId();
+        if (userId == null)
         {
-            var user = await userRepository.Get(userId.Value);
-            return user;
+            var newUser = CreateUser();
+            await HttpContext.SignInAsync(Convert(newUser));
+            return newUser;
         }
-        return null;
+
+        var user = await userRepository.Get(userId.Value);
+        if (user == null)
+        {
+            user = CreateUser(userId);
+        }
+        else
+        {
+            user.SavedUser = true;
+        }
+
+        return user;
     }
 
-    private async Task<UserEntity> CreateUser()
+    private UserEntity CreateUser(Guid? userId = null)
     {
         var userEntity = new UserEntity();
 
         userEntity.PublicId = Guid.NewGuid();
-        userEntity.Id = Guid.NewGuid();
+        userEntity.Id = userId == null ? Guid.NewGuid() : userId.Value;
         userEntity.Attending = new List<Guid>();
         userEntity.Following = new List<Guid>();
-
-        await userRepository.Create(userEntity);
+        userEntity.SavedUser = false;
 
         return userEntity;
     }
 
+    private async Task<UserEntity> SaveUser(UserEntity userEntity)
+    {
+        if (userEntity.PublicId == Guid.Empty)
+        {
+            userEntity.PublicId = Guid.NewGuid();
+            await userRepository.Create(userEntity);
+            userEntity.SavedUser = true;
+        }
 
-    private Guid? GetUserId()
+        return userEntity;
+    }
+
+    private Guid? GetLoggedInUserId()
     {
         var claim = HttpContext.User.Claims.FirstOrDefault(kv => kv.Type == "Id");
         if (claim == null)
@@ -279,14 +291,19 @@ public class SchedulerController : ControllerBase
             return null;
         }
 
-        return Guid.Parse(claim.Value);
+        if (Guid.TryParse(claim.Value, out var id))
+        {
+            return null;
+        }
+
+        return id;
     }
 
-    public static ClaimsPrincipal Convert(Guid id)
+    public static ClaimsPrincipal Convert(UserEntity user)
     {
         var claims = new List<Claim>()
             {
-                new Claim("Id", id.ToString())
+                new Claim("Id", user.Id.ToString())
             };
 
         var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

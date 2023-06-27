@@ -2,9 +2,11 @@ namespace Scheduler.Tracking;
 
 public class TrackingClient
 {
-    public const string Time = "time";
-    public const string UserId = "distinct_id";
-    public const string EventId = "$insert_id";
+    private const string Time = "time";
+    private const string UserId = "distinct_id";
+    private const string TrackEventId = "$insert_id";
+    public const string OtherUserId = "other_user_id";
+    public const string EventId = "event_id";
 
     private readonly ILogger<TrackingClient> logger;
     private readonly HttpClient httpClient;
@@ -15,9 +17,14 @@ public class TrackingClient
         this.httpClient = httpClientFactory.CreateClient(nameof(TrackingClient));
     }
 
-    public async Task Test(Guid userId)
+    public async Task Track(string name, Guid userId, Dictionary<string, object>? parameters = null)
     {
-        var dto = new TrackingDto[] { new TrackingDto("Test", GetEventProperties(userId)) };
+        if (parameters == null)
+        {
+            parameters = new Dictionary<string, object>();
+        }
+
+        var dto = new TrackingDto[] { new TrackingDto(name, SetDefaultEventProperties(userId, parameters)) };
 
         var result = await httpClient.PostAsJsonAsync("import?strict=1", dto);
         if (!result.IsSuccessStatusCode)
@@ -27,13 +34,12 @@ public class TrackingClient
         }
     }
 
-    public Dictionary<string, object> GetEventProperties(Guid userId)
+    public Dictionary<string, object> SetDefaultEventProperties(Guid userId, Dictionary<string, object> parameters)
     {
-        var result = new Dictionary<string, object>();
-        result[Time] = Math.Floor((DateTime.UtcNow - DateTime.UnixEpoch).TotalMilliseconds);
-        result[UserId] = userId.ToString();
-        result[EventId] = Guid.NewGuid().ToString();
+        parameters[Time] = Math.Floor((DateTime.UtcNow - DateTime.UnixEpoch).TotalMilliseconds);
+        parameters[UserId] = userId.ToString();
+        parameters[TrackEventId] = Guid.NewGuid().ToString();
 
-        return result;
+        return parameters;
     }
 }
