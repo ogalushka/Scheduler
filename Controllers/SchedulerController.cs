@@ -179,6 +179,11 @@ public class SchedulerController : ControllerBase
 
         var user = await GetAndSaveUser();
 
+        if (user.PublicId == publicId)
+        {
+            return Problem("Can't follow yourself");
+        }
+
         var following = user.Following.Contains(publicId);
 
         if (following)
@@ -276,9 +281,10 @@ public class SchedulerController : ControllerBase
         if (userEntity.PublicId == Guid.Empty)
         {
             userEntity.PublicId = Guid.NewGuid();
-            await userRepository.Create(userEntity);
-            userEntity.SavedUser = true;
         }
+
+        await userRepository.Create(userEntity);
+        userEntity.SavedUser = true;
 
         return userEntity;
     }
@@ -291,7 +297,7 @@ public class SchedulerController : ControllerBase
             return null;
         }
 
-        if (Guid.TryParse(claim.Value, out var id))
+        if (!Guid.TryParse(claim.Value, out var id))
         {
             return null;
         }
