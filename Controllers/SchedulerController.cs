@@ -43,7 +43,7 @@ public class SchedulerController : ControllerBase
             following = await userRepository.GetAll(userRepository.filter.In(u => u.PublicId, user.Following));
         }
 
-        await tracking.Track(EventName.ScheduleViewed, user.Id);
+        _ = tracking.Track(EventName.ScheduleViewed, user.Id);
         var result = BuildScheduleResponce(schedule, user, user, attendance, following);
         return Ok(result);
     }
@@ -53,7 +53,7 @@ public class SchedulerController : ControllerBase
     public async Task<ActionResult<ScheduleDto>> GetSchedule(string publicId)
     {
         var schedule = await scheduleRepository.Get("Tomorrow");
-        var otherUser = await userRepository.Get(Guid.Parse(publicId));
+        var otherUser = await userRepository.Get(e => e.PublicId == Guid.Parse(publicId));
         if (otherUser == null)
         {
             return NotFound();
@@ -63,6 +63,7 @@ public class SchedulerController : ControllerBase
         var user = await GetLoggedInUser();
         var following = new UserEntity[] { user };
         var result = BuildScheduleResponce(schedule, user, otherUser, attendance, following);
+        _ = tracking.Track(EventName.OtherScheduleViewed, user.Id, new Dictionary<string, object> { { TrackingClient.OtherUserId, otherUser.Id } });
         return Ok(result);
     }
 
@@ -130,7 +131,7 @@ public class SchedulerController : ControllerBase
             {
                 userEntity.Attending.Add(eventId);
                 await userRepository.Update(userEntity);
-                await tracking.Track(EventName.Attending, userEntity.Id, new Dictionary<string, object> { { TrackingClient.EventId, eventId } });
+                _ = tracking.Track(EventName.Attending, userEntity.Id, new Dictionary<string, object> { { TrackingClient.EventId, eventId } });
             }
         }
         else
@@ -193,7 +194,7 @@ public class SchedulerController : ControllerBase
 
         user.Following.Add(publicId);
         await userRepository.Update(user);
-        await tracking.Track(EventName.Followed, user.Id, new Dictionary<string, object> { { TrackingClient.OtherUserId, toFollow.Id } });
+        _ = tracking.Track(EventName.Followed, user.Id, new Dictionary<string, object> { { TrackingClient.OtherUserId, toFollow.Id } });
 
         return Ok();
     }
