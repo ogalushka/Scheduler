@@ -164,7 +164,7 @@ public class SchedulerController : ControllerBase
             user.Name = name;
             await userRepository.Update(user);
         }
-        return Ok(new Attendee { Id = user.PublicId, Name = user.Name });
+        return Ok(new Attendee { Id = user.PublicId, Name = user.Name, Following = user.Following });
     }
 
     [HttpPost]
