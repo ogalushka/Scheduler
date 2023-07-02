@@ -87,7 +87,7 @@ public class SchedulerController : ControllerBase
                     }).ToArray()
             }).ToArray();
 
-        var meDto = me.SavedUser ? new Attendee { Id = me.PublicId, Name = me.Name } : null;
+        var meDto = me.SavedUser ? new Attendee { Id = me.PublicId, Name = me.Name, Following = me.Following } : null;
         var ownerDto = owner.SavedUser ? new Attendee { Id = owner.PublicId, Name = owner.Name } : null;
 
         return new ScheduleDto
