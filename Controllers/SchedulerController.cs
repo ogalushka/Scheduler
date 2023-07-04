@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Scheduler.Db;
 using Scheduler.Db.Models;
@@ -243,7 +244,7 @@ public class SchedulerController : ControllerBase
 
     private async Task<UserEntity> GetLoggedInUser()
     {
-        var userId = GetLoggedInUserId();
+        var userId = await GetLoggedInUserId();
         if (userId == null)
         {
             var newUser = CreateUser();
@@ -290,7 +291,7 @@ public class SchedulerController : ControllerBase
         return userEntity;
     }
 
-    private Guid? GetLoggedInUserId()
+    private async Task<Guid?> GetLoggedInUserId()
     {
         var claim = HttpContext.User.Claims.FirstOrDefault(kv => kv.Type == "Id");
         if (claim == null)
@@ -303,7 +304,30 @@ public class SchedulerController : ControllerBase
             return null;
         }
 
+        await RenewSessionExpiration(HttpContext.User);
+
         return id;
+    }
+
+    private async Task RenewSessionExpiration(ClaimsPrincipal claimsPrincipal)
+    {
+        var opt = HttpContext.RequestServices
+            .GetRequiredService<IOptionsMonitor<CookieAuthenticationOptions>>()
+            .Get(CookieAuthenticationDefaults.AuthenticationScheme);
+
+        var cookie = opt.CookieManager.GetRequestCookie(HttpContext, opt.Cookie.Name!);
+
+        var authTicket = opt.TicketDataFormat.Unprotect(cookie);
+        if (authTicket == null)
+        {
+            return;
+        }
+
+        var timeTillExpiration = authTicket.Properties.ExpiresUtc - DateTime.UtcNow;
+        if (timeTillExpiration < TimeSpan.FromDays(30))
+        {
+            await HttpContext.SignInAsync(claimsPrincipal);
+        }
     }
 
     public static ClaimsPrincipal Convert(UserEntity user)
