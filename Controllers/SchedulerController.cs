@@ -112,7 +112,7 @@ public class SchedulerController : ControllerBase
                 .Where(u => u.Attending.Contains(e.Id))
                 .Select(u => new Attendee
                 {
-                    Id = u.Id,
+                    Id = u.PublicId,
                     Name = u.Name
                 }).ToArray()
         };
