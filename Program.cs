@@ -16,8 +16,8 @@ builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o => {
     o.Cookie.SameSite = SameSiteMode.None;
     o.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-    o.Cookie.Expiration = TimeSpan.FromDays(365);
-    o.Cookie.MaxAge = o.Cookie.Expiration;
+    o.ExpireTimeSpan = TimeSpan.FromDays(365);
+    o.Cookie.MaxAge = o.ExpireTimeSpan;
     o.SlidingExpiration = true;
     });
 builder.Services.AddEndpointsApiExplorer();
