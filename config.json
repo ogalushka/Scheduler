@@ -1,0 +1,4791 @@
+  {
+    "id": "Tomorrow",
+    "weeks": [
+      {
+        "name": "Week 1",
+        "days": [
+          {
+            "date": "2023-07-21",
+            "name": "Friday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "58d891c0-7f00-41f1-b1b7-02163bceb700",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T14:30:00Z",
+                    "artist": "Daybreak session: Claptone"
+                  },
+                  {
+                    "id": "4390f717-7886-469f-bd19-79af576ffe84",
+                    "start": "2023-07-21T14:30:00Z",
+                    "end": "2023-07-21T15:30:00Z",
+                    "artist": "Anfisa Letyago"
+                  },
+                  {
+                    "id": "be9953c7-a9a2-4a68-bbf6-7a6ee597c25e",
+                    "start": "2023-07-21T15:30:00Z",
+                    "end": "2023-07-21T16:30:00Z",
+                    "artist": "Andromedik"
+                  },
+                  {
+                    "id": "6d5d9e54-5f6c-4a59-9122-3b67c1110aff",
+                    "start": "2023-07-21T16:30:00Z",
+                    "end": "2023-07-21T17:30:00Z",
+                    "artist": "Henri PFR"
+                  },
+                  {
+                    "id": "b2fd2290-a709-41b1-9c04-5742d7eb74b6",
+                    "start": "2023-07-21T17:35:00Z",
+                    "end": "2023-07-21T18:35:00Z",
+                    "artist": "MATTN"
+                  },
+                  {
+                    "id": "d2994c9d-571c-47a3-915e-60b6455f7e94",
+                    "start": "2023-07-21T18:40:00Z",
+                    "end": "2023-07-21T19:40:00Z",
+                    "artist": "Vini Vici"
+                  },
+                  {
+                    "id": "c5d4c0fd-b8ec-4534-a4c9-7f433c61f7ca",
+                    "start": "2023-07-21T19:40:00Z",
+                    "end": "2023-07-21T20:40:00Z",
+                    "artist": "Amelie Lens"
+                  },
+                  {
+                    "id": "9a313bd0-a0c3-4872-beb3-261a4f36e2b6",
+                    "start": "2023-07-21T20:40:00Z",
+                    "end": "2023-07-21T21:40:00Z",
+                    "artist": "Sunnery James & Ryan Marciano"
+                  },
+                  {
+                    "id": "53baa8bc-e6e9-4650-936d-5df9ed44f734",
+                    "start": "2023-07-21T21:45:00Z",
+                    "end": "2023-07-21T22:45:00Z",
+                    "artist": "Steve Angello"
+                  },
+                  {
+                    "id": "559d5c5f-5c33-4952-bbf3-1d3b0b1eb33a",
+                    "start": "2023-07-21T22:50:00Z",
+                    "end": "2023-07-21T23:50:00Z",
+                    "artist": "The Chainsmokers"
+                  },
+                  {
+                    "id": "7d2529cc-22e4-4bd0-8e5e-d972737342c0",
+                    "start": "2023-07-21T23:50:00Z",
+                    "end": "2023-07-22T00:50:00Z",
+                    "artist": "Tiësto"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "03924777-7dd8-4c1e-93b1-0a0a1dd28fe1",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T13:30:00Z",
+                    "artist": "Maxi Meraki"
+                  },
+                  {
+                    "id": "e737dbc9-7d70-4386-b722-8e9bdf7e5265",
+                    "start": "2023-07-21T13:30:00Z",
+                    "end": "2023-07-21T15:00:00Z",
+                    "artist": "Mooglie"
+                  },
+                  {
+                    "id": "e29b5dd5-9ecc-4141-953a-c09afc0e7da9",
+                    "start": "2023-07-21T15:00:00Z",
+                    "end": "2023-07-21T16:30:00Z",
+                    "artist": "Mau P"
+                  },
+                  {
+                    "id": "ae2d33fb-c93a-482e-8723-ffb88e06ed50",
+                    "start": "2023-07-21T16:30:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Agents Of Time (Live)"
+                  },
+                  {
+                    "id": "f722dacc-ed07-4471-90e7-81b98fe1dcca",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Meduza"
+                  },
+                  {
+                    "id": "c97f23e2-8f78-468a-aa46-7e6ee963df8f",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "Mathame"
+                  },
+                  {
+                    "id": "16206341-828d-4961-b9dd-73829706173d",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Kölsch"
+                  },
+                  {
+                    "id": "79cdd5b8-2282-4e69-9f49-99490e53a7f6",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T00:30:00Z",
+                    "artist": "Eric Prydz presents HOLO"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "9d625e19-4942-4258-aa94-df3e839da80e",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T13:30:00Z",
+                    "artist": "Maze"
+                  },
+                  {
+                    "id": "4725fefa-eaf5-4b04-ad82-40b6085447c9",
+                    "start": "2023-07-21T13:30:00Z",
+                    "end": "2023-07-21T15:00:00Z",
+                    "artist": "Monrroe & Duskee"
+                  },
+                  {
+                    "id": "e7ce79ba-4b91-4169-bb4d-e86a8f674ed4",
+                    "start": "2023-07-21T15:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "A Little Sound"
+                  },
+                  {
+                    "id": "549d44cd-75a5-4c25-8618-23a98fb1efed",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:00:00Z",
+                    "artist": "Dr Ushuu B2B Ivory"
+                  },
+                  {
+                    "id": "5a2f80b3-55a0-4739-88ef-94205fc312eb",
+                    "start": "2023-07-21T17:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Grafix"
+                  },
+                  {
+                    "id": "8b1d30d9-cfd4-4fbe-9112-53c67d664db6",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "Hazard"
+                  },
+                  {
+                    "id": "12a4bc99-1c2e-4598-9d14-b19d87d1af51",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T20:00:00Z",
+                    "artist": "Murdock"
+                  },
+                  {
+                    "id": "2606b540-fc7a-4023-a212-e199491be12d",
+                    "start": "2023-07-21T20:00:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "SVDDEN DEATH"
+                  },
+                  {
+                    "id": "f3cd4326-9b8a-4d55-a059-adc3f7909a27",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T22:00:00Z",
+                    "artist": "USED"
+                  },
+                  {
+                    "id": "9be67e53-6db1-484e-a168-c04daedeeecd",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Funtcase"
+                  },
+                  {
+                    "id": "fdc6a581-a82d-4af4-95a6-2f96cf175be8",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "Macky Gee"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "c81270b0-e959-4165-9abf-793509172dbf",
+                    "start": "2023-07-21T13:00:00Z",
+                    "end": "2023-07-21T14:30:00Z",
+                    "artist": "Milinguap"
+                  },
+                  {
+                    "id": "4146e278-2e09-4176-a940-e088b7eca536",
+                    "start": "2023-07-21T14:30:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Soul Shakers"
+                  },
+                  {
+                    "id": "96f32f7c-5e64-4713-8030-5876f4b9eaf6",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:30:00Z",
+                    "artist": "BAVR"
+                  },
+                  {
+                    "id": "778a7a4c-92c7-4dc7-b3b3-ff17c3775dfb",
+                    "start": "2023-07-21T17:30:00Z",
+                    "end": "2023-07-21T18:30:00Z",
+                    "artist": "Flo Windey ft. Skyve"
+                  },
+                  {
+                    "id": "762e7f54-58d0-489e-a83e-afd02f63d09a",
+                    "start": "2023-07-21T18:30:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "MagiK"
+                  },
+                  {
+                    "id": "2c7bb2ab-9fad-499f-860e-2ebf07e0d6b6",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T20:30:00Z",
+                    "artist": "Hyalyte"
+                  },
+                  {
+                    "id": "7c035249-e7bf-4c4c-b7ea-8a546bcaaa3f",
+                    "start": "2023-07-21T20:30:00Z",
+                    "end": "2023-07-21T22:00:00Z",
+                    "artist": "DJ NC"
+                  },
+                  {
+                    "id": "5eee6c44-3ee5-4a57-ace0-71fa8bfdbe0d",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-21T23:30:00Z",
+                    "artist": "Kamal Bankay"
+                  },
+                  {
+                    "id": "b049a92f-6b96-4d6a-95a7-22b8e37339d9",
+                    "start": "2023-07-21T23:30:00Z",
+                    "end": "2023-07-22T01:00:00Z",
+                    "artist": "Audiowave"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "7ec368a6-9775-40c9-a278-86ef6543ba50",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T14:00:00Z",
+                    "artist": "Wanton"
+                  },
+                  {
+                    "id": "7bfe082f-0fe1-4256-8996-e3b3f9452166",
+                    "start": "2023-07-21T14:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Jan Vercauteren"
+                  },
+                  {
+                    "id": "5761ea6c-995d-49a6-9ff1-ca6df5f96f92",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Patrick Mason"
+                  },
+                  {
+                    "id": "f57b4867-973f-434d-a657-c94db0565aeb",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Cera Khin"
+                  },
+                  {
+                    "id": "0c38b2fa-2149-47c6-bb13-40ecdeeea52d",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "SPFDJ"
+                  },
+                  {
+                    "id": "1bbbaf86-91aa-40c1-ae70-80a43cb620ee",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Paula Temple"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "bf16114b-2976-4604-9281-de42a5e8847e",
+                    "start": "2023-07-21T13:00:00Z",
+                    "end": "2023-07-21T14:30:00Z",
+                    "artist": "Lexi"
+                  },
+                  {
+                    "id": "49468660-9771-401d-8d63-b9aee55e66f1",
+                    "start": "2023-07-21T14:30:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Jane Muss"
+                  },
+                  {
+                    "id": "485f8b6f-f7dc-4b21-8e63-80dc79c6e4ea",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:00:00Z",
+                    "artist": "Jazie"
+                  },
+                  {
+                    "id": "ddc31259-f560-4233-8005-8215a89062e6",
+                    "start": "2023-07-21T17:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Stella K"
+                  },
+                  {
+                    "id": "eefdddd0-970e-42ad-93d2-59067150e980",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "Myu:sa"
+                  },
+                  {
+                    "id": "e35e3421-e645-4f20-a931-d3ed3282e4b3",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T20:00:00Z",
+                    "artist": "LOLITA"
+                  },
+                  {
+                    "id": "08e25e40-6216-4f3b-bcf3-533184d9794e",
+                    "start": "2023-07-21T20:00:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "Waltur"
+                  },
+                  {
+                    "id": "3ea87e58-3a94-49be-8f6a-34e432ec06b7",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T22:00:00Z",
+                    "artist": "Instar"
+                  },
+                  {
+                    "id": "713ec637-8379-435f-986e-b82751a4912e",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Gitzwart"
+                  },
+                  {
+                    "id": "2000937d-f882-4bb5-9274-7ad73c325530",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "Burenhinder b4b"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "b4032e01-439e-48de-9d9b-ad7b9fb696d2",
+                    "start": "2023-07-21T12:30:00Z",
+                    "end": "2023-07-21T14:00:00Z",
+                    "artist": "Demi Kanon"
+                  },
+                  {
+                    "id": "b23b7aa9-dd58-4d17-b230-b2c3457d9ced",
+                    "start": "2023-07-21T14:00:00Z",
+                    "end": "2023-07-21T15:30:00Z",
+                    "artist": "Boray"
+                  },
+                  {
+                    "id": "aa46ecb2-f346-406f-b234-ebce86b23f09",
+                    "start": "2023-07-21T15:30:00Z",
+                    "end": "2023-07-21T16:30:00Z",
+                    "artist": "Devin Wild"
+                  },
+                  {
+                    "id": "889f44c4-d15f-49bc-85b8-9d7939c03e03",
+                    "start": "2023-07-21T16:30:00Z",
+                    "end": "2023-07-21T17:30:00Z",
+                    "artist": "Coone"
+                  },
+                  {
+                    "id": "9c5e1426-fc04-4847-b2c5-98d96227c303",
+                    "start": "2023-07-21T17:30:00Z",
+                    "end": "2023-07-21T18:30:00Z",
+                    "artist": "TNT"
+                  },
+                  {
+                    "id": "c92fd6be-6939-4cc1-8eed-e819db1a3263",
+                    "start": "2023-07-21T18:30:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Sub Zero Project"
+                  },
+                  {
+                    "id": "75b1a892-cbb9-4312-a87a-fed3d717fc04",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T20:30:00Z",
+                    "artist": "Ben Nicky presents Xtreme"
+                  },
+                  {
+                    "id": "2a4a47d6-7666-4781-9411-3f4745585da4",
+                    "start": "2023-07-21T20:30:00Z",
+                    "end": "2023-07-21T21:30:00Z",
+                    "artist": "Hard Driver"
+                  },
+                  {
+                    "id": "1e1ef272-c5be-4f03-a5dd-5c88ddf4acfc",
+                    "start": "2023-07-21T21:30:00Z",
+                    "end": "2023-07-21T22:30:00Z",
+                    "artist": "Warface"
+                  },
+                  {
+                    "id": "55683cca-f25a-43f7-b6e3-751f881e31d7",
+                    "start": "2023-07-21T22:30:00Z",
+                    "end": "2023-07-21T23:30:00Z",
+                    "artist": "Sickmode"
+                  },
+                  {
+                    "id": "c38fa0e5-b69b-4ad9-9711-177cd69c5d69",
+                    "start": "2023-07-21T23:30:00Z",
+                    "end": "2023-07-22T00:50:00Z",
+                    "artist": "D-Sturb"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "2ab0473a-f506-4234-918d-ea2e386d36d2",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T13:30:00Z",
+                    "artist": "Kap's"
+                  },
+                  {
+                    "id": "bd45d14d-c4ec-4dcb-b3ce-2e8c7f6fa24f",
+                    "start": "2023-07-21T13:30:00Z",
+                    "end": "2023-07-21T15:00:00Z",
+                    "artist": "Mosoo"
+                  },
+                  {
+                    "id": "d138324e-d309-488b-902c-6377dfe6403e",
+                    "start": "2023-07-21T15:00:00Z",
+                    "end": "2023-07-21T16:30:00Z",
+                    "artist": "Dorian Craft"
+                  },
+                  {
+                    "id": "3fc8e146-fd56-4bf5-a909-8e1a02273afc",
+                    "start": "2023-07-21T16:30:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "MoBlack"
+                  },
+                  {
+                    "id": "6806af27-901f-4d0f-81e4-73225a26708e",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Kasango"
+                  },
+                  {
+                    "id": "7a86b856-147a-4280-b221-df868f399f54",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "Philou Louzolo"
+                  },
+                  {
+                    "id": "9629b518-080f-4862-b290-92f9c4a32b32",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T23:30:00Z",
+                    "artist": "Airrica"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "6392cd57-7d58-4d9e-9f87-368c35429954",
+                    "start": "2023-07-21T12:30:00Z",
+                    "end": "2023-07-21T17:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "a98f117e-75fa-4efc-baa1-e021a95ab752",
+                    "start": "2023-07-21T17:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Nils Hoffmann"
+                  },
+                  {
+                    "id": "ff40b389-9d61-43bf-b57e-e572486963c0",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Nora En Pure"
+                  },
+                  {
+                    "id": "446c2e02-9ad7-4a73-94c8-6834ea0a19f2",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "NTO"
+                  },
+                  {
+                    "id": "7cd7b28c-4d34-4d64-abb2-1c6ea6edeb5f",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T22:30:00Z",
+                    "artist": "Franky Wah"
+                  },
+                  {
+                    "id": "e0fda756-953f-4447-9678-f31235f4c37e",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "Marsh"
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "cea8792d-ea87-45a1-bde3-bf3328c9b473",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T14:00:00Z",
+                    "artist": "SHDDR"
+                  },
+                  {
+                    "id": "c197565a-f17a-4b0f-8a21-ba32429594db",
+                    "start": "2023-07-21T14:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Carmen Lisa"
+                  },
+                  {
+                    "id": "2b29867c-0a4c-4bf6-bd7e-5b34bc9403b2",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "Juliet Fox"
+                  },
+                  {
+                    "id": "314cbb27-6e22-4c54-9eae-94ed1a8c258b",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:30:00Z",
+                    "artist": "Eli Brown"
+                  },
+                  {
+                    "id": "023ed2a5-2a7e-4a75-b7a3-a461812744ef",
+                    "start": "2023-07-21T19:30:00Z",
+                    "end": "2023-07-21T21:30:00Z",
+                    "artist": "HI-LO b2b Layton Giordani"
+                  },
+                  {
+                    "id": "5d1a69b1-ba13-4fc5-b09f-cd43b3df48a6",
+                    "start": "2023-07-21T21:30:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Joris Voorn"
+                  },
+                  {
+                    "id": "c03830cd-2b8b-4a4a-b8b8-a85be70a5921",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T01:00:00Z",
+                    "artist": "Adam Beyer"
+                  }
+                ]
+              },
+              {
+                "name": "CORE",
+                "events": [
+                  {
+                    "id": "b5f26690-d29b-49d9-ac45-5790d0c93205",
+                    "start": "2023-07-21T12:30:00Z",
+                    "end": "2023-07-21T14:30:00Z",
+                    "artist": "Asian Sal"
+                  },
+                  {
+                    "id": "697510f5-8c03-4a56-a565-ebab80385a1b",
+                    "start": "2023-07-21T14:30:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Ava Eva"
+                  },
+                  {
+                    "id": "36660ef1-b0ad-4574-91b1-0aab31b1fd66",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:30:00Z",
+                    "artist": "Chloé Caillet"
+                  },
+                  {
+                    "id": "133b76c9-a2a8-4b96-a8af-4980adb2a3ad",
+                    "start": "2023-07-21T17:30:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "Dino Lenny"
+                  },
+                  {
+                    "id": "14482938-e474-46f3-988c-1c652e6357fb",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "Krystal Klear"
+                  },
+                  {
+                    "id": "b02c955b-b4d2-447c-8566-ef3ca66a0b98",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Folamour"
+                  },
+                  {
+                    "id": "4d72319a-34c5-42c9-bb57-7483a3c45b7f",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T01:00:00Z",
+                    "artist": "Special Request"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "5b0d3739-c141-49a6-972d-7fc5d0b8426e",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T13:30:00Z",
+                    "artist": "D&W"
+                  },
+                  {
+                    "id": "0be17fbf-8ca7-49df-ba51-2502e1a5367f",
+                    "start": "2023-07-21T13:30:00Z",
+                    "end": "2023-07-21T15:00:00Z",
+                    "artist": "Tom & Collins"
+                  },
+                  {
+                    "id": "4d8bacb6-868c-4e5c-877b-27e8d0fe0081",
+                    "start": "2023-07-21T15:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "HoneyLuv"
+                  },
+                  {
+                    "id": "af18aa77-e5aa-4649-bf17-76a57ec43369",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:30:00Z",
+                    "artist": "Matt Guy"
+                  },
+                  {
+                    "id": "6d9ff130-27a8-4cd6-8a2e-d51c70dac38b",
+                    "start": "2023-07-21T17:30:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "LP Giobbi"
+                  },
+                  {
+                    "id": "0fe795e6-6baf-4c3a-8087-4d06f4e38073",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T20:30:00Z",
+                    "artist": "LF System"
+                  },
+                  {
+                    "id": "4f16416f-3dfd-4ccf-aac0-837ad0b7c072",
+                    "start": "2023-07-21T20:30:00Z",
+                    "end": "2023-07-21T22:00:00Z",
+                    "artist": "Solardo"
+                  },
+                  {
+                    "id": "c350801c-89ff-4367-8a6c-67934770c078",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "Purple Disco Machine"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "ef37849f-6117-4a18-9840-1c5eb6f559b2",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T13:00:00Z",
+                    "artist": "AdamK"
+                  },
+                  {
+                    "id": "c42a3ed9-7e69-4960-ab1b-da36f36397f1",
+                    "start": "2023-07-21T13:00:00Z",
+                    "end": "2023-07-21T14:00:00Z",
+                    "artist": "Marwan Dua"
+                  },
+                  {
+                    "id": "a4c5e054-2172-4b1f-bc3e-eda00816e6a8",
+                    "start": "2023-07-21T14:00:00Z",
+                    "end": "2023-07-21T15:00:00Z",
+                    "artist": "Chemical Surf"
+                  },
+                  {
+                    "id": "49567a61-b0ac-4cd7-894d-56a3048745a7",
+                    "start": "2023-07-21T15:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Bleu Clair"
+                  },
+                  {
+                    "id": "0682441e-ce95-4abf-872a-343927e7a310",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T17:00:00Z",
+                    "artist": "Omdat Het Kan Soundsystem ft. Average Rob"
+                  },
+                  {
+                    "id": "234b6362-94e4-46a2-9424-dc41ab0c1789",
+                    "start": "2023-07-21T17:00:00Z",
+                    "end": "2023-07-21T18:00:00Z",
+                    "artist": "The Magician"
+                  },
+                  {
+                    "id": "f9d06f5e-edf8-49f4-b201-91ea200b0fcd",
+                    "start": "2023-07-21T18:00:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "Wax Motif"
+                  },
+                  {
+                    "id": "5fa12b15-b9c8-437b-9cf8-3106b3413d93",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T20:00:00Z",
+                    "artist": "Marten Hørger"
+                  },
+                  {
+                    "id": "e62af205-81c2-400b-9637-65b387f07ec5",
+                    "start": "2023-07-21T20:00:00Z",
+                    "end": "2023-07-21T21:00:00Z",
+                    "artist": "Sonny Fodera"
+                  },
+                  {
+                    "id": "771e0008-dd59-4038-8461-45df9bd26d06",
+                    "start": "2023-07-21T21:00:00Z",
+                    "end": "2023-07-21T22:00:00Z",
+                    "artist": "Acraze"
+                  },
+                  {
+                    "id": "ebfe44e7-cd3d-4f0a-8eb9-f27c19325c72",
+                    "start": "2023-07-21T22:00:00Z",
+                    "end": "2023-07-21T23:00:00Z",
+                    "artist": "Lost Frequencies"
+                  },
+                  {
+                    "id": "d96f5c95-89d0-40b3-8d55-e974887e63ea",
+                    "start": "2023-07-21T23:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "Oliver Heldens"
+                  },
+                  {
+                    "id": "ae5cc2df-0f37-48f6-b635-e6b38122e2a1",
+                    "start": "2023-07-22T00:00:00Z",
+                    "end": "2023-07-22T01:00:00Z",
+                    "artist": "Netsky"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "38685529-5492-4513-a654-73c1c8b2df13",
+                    "start": "2023-07-21T12:00:00Z",
+                    "end": "2023-07-21T16:00:00Z",
+                    "artist": "Jelle DK"
+                  },
+                  {
+                    "id": "a9d74147-e7d5-4917-8743-0357283fb9b4",
+                    "start": "2023-07-21T16:00:00Z",
+                    "end": "2023-07-21T19:00:00Z",
+                    "artist": "Michael More"
+                  },
+                  {
+                    "id": "c295590e-376d-4248-a589-106191e26ca1",
+                    "start": "2023-07-21T19:00:00Z",
+                    "end": "2023-07-21T20:00:00Z",
+                    "artist": "Partyfriex"
+                  },
+                  {
+                    "id": "5e098f02-9e3c-4163-bee0-61f4005b78b0",
+                    "start": "2023-07-21T20:00:00Z",
+                    "end": "2023-07-22T00:00:00Z",
+                    "artist": "F.R.A.N.K"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "date": "2023-07-22",
+            "name": "Saturday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "3adaccab-8fcf-4a54-a203-3a7bdf0686d3",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T14:30:00Z",
+                    "artist": "Daybreak session: Laidback Luke presents Wayback Luke"
+                  },
+                  {
+                    "id": "6c1994a8-ff5a-4e56-8185-aefa1807f6ee",
+                    "start": "2023-07-22T14:30:00Z",
+                    "end": "2023-07-22T15:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "37f687f8-cf4a-4939-aebb-fc5508c2d5ad",
+                    "start": "2023-07-22T15:30:00Z",
+                    "end": "2023-07-22T16:30:00Z",
+                    "artist": "220 Kid"
+                  },
+                  {
+                    "id": "d949fb06-fa88-47c8-8c87-dbf163f49fdc",
+                    "start": "2023-07-22T16:30:00Z",
+                    "end": "2023-07-22T17:30:00Z",
+                    "artist": "Lilly Palmer"
+                  },
+                  {
+                    "id": "9c7f48af-d237-4ad0-b794-73cef458930f",
+                    "start": "2023-07-22T17:35:00Z",
+                    "end": "2023-07-22T18:35:00Z",
+                    "artist": "GORDO"
+                  },
+                  {
+                    "id": "e1aac6f4-40ab-409d-9e1e-b425966a3e40",
+                    "start": "2023-07-22T18:40:00Z",
+                    "end": "2023-07-22T19:40:00Z",
+                    "artist": "James Hype"
+                  },
+                  {
+                    "id": "f8fff660-02a7-48c1-bc87-492e67c57a29",
+                    "start": "2023-07-22T19:40:00Z",
+                    "end": "2023-07-22T20:40:00Z",
+                    "artist": "Amber Broos"
+                  },
+                  {
+                    "id": "dea5e064-7006-4517-b874-9f43caf7a6b1",
+                    "start": "2023-07-22T20:40:00Z",
+                    "end": "2023-07-22T21:40:00Z",
+                    "artist": "ALOK"
+                  },
+                  {
+                    "id": "15c369e8-fad8-41fb-9083-e1adc61f6739",
+                    "start": "2023-07-22T21:45:00Z",
+                    "end": "2023-07-22T22:45:00Z",
+                    "artist": "Afrojack"
+                  },
+                  {
+                    "id": "a7636112-a0a2-4e4a-a586-e7700c84f2b7",
+                    "start": "2023-07-22T22:50:00Z",
+                    "end": "2023-07-22T23:50:00Z",
+                    "artist": "Dimitri Vegas & Like Mike"
+                  },
+                  {
+                    "id": "b4a5a030-fd9f-4931-aacc-84d300853dc8",
+                    "start": "2023-07-22T23:50:00Z",
+                    "end": "2023-07-23T00:50:00Z",
+                    "artist": "Alesso"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "c58f6073-01a0-4cda-994e-f9faaef601f4",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T13:30:00Z",
+                    "artist": "Axel Haube"
+                  },
+                  {
+                    "id": "f7145d66-8adf-4f7c-9158-b60a658db08a",
+                    "start": "2023-07-22T13:30:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "8Kays"
+                  },
+                  {
+                    "id": "0302e708-d130-4801-bdc1-340932f35dd9",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:30:00Z",
+                    "artist": "Colyn"
+                  },
+                  {
+                    "id": "24fe762e-4324-4729-976a-c2890e02d3ad",
+                    "start": "2023-07-22T16:30:00Z",
+                    "end": "2023-07-22T18:00:00Z",
+                    "artist": "Kevin De Vries"
+                  },
+                  {
+                    "id": "607a27cd-027a-417a-ad17-a8995a4e4900",
+                    "start": "2023-07-22T18:00:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "Camelphat"
+                  },
+                  {
+                    "id": "96d84d5c-85e2-468f-9b96-04ea73f5f4f9",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "Anyma"
+                  },
+                  {
+                    "id": "94d540a9-6a81-4089-b2ee-a69b936b9875",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:30:00Z",
+                    "artist": "Adriatique"
+                  },
+                  {
+                    "id": "34dfa60d-7c93-462b-9a05-47904578f15b",
+                    "start": "2023-07-22T22:30:00Z",
+                    "end": "2023-07-23T00:30:00Z",
+                    "artist": "Tale Of Us"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "c6cb3ec2-f690-43b3-a368-25751678b5c5",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "Dj Fire"
+                  },
+                  {
+                    "id": "322b58a0-4a56-43b6-aa64-376b4eda47a6",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Phi Phi"
+                  },
+                  {
+                    "id": "0eb8ba5b-fecf-4e27-bdd0-a03756132d80",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "DJ Jan"
+                  },
+                  {
+                    "id": "528e38c5-a077-4f57-a584-9727b6dfb4c4",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:00:00Z",
+                    "artist": "Franky Jones"
+                  },
+                  {
+                    "id": "ae139903-9b41-4d15-bea8-294cd0689478",
+                    "start": "2023-07-22T17:00:00Z",
+                    "end": "2023-07-22T18:00:00Z",
+                    "artist": "Jens Lissat"
+                  },
+                  {
+                    "id": "2cd633dd-4565-4c53-b034-5cc27144d4e7",
+                    "start": "2023-07-22T18:00:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Jan Vervloet"
+                  },
+                  {
+                    "id": "c671d8c0-b257-4020-a2d2-0c2cc596e079",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T20:00:00Z",
+                    "artist": "DJ Ghost"
+                  },
+                  {
+                    "id": "d67754f2-7bd5-4f42-9e28-a63f5cd59c26",
+                    "start": "2023-07-22T20:00:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "Franky Kloeck"
+                  },
+                  {
+                    "id": "e099e9f3-2c5b-44b1-9def-97627ac83f54",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:30:00Z",
+                    "artist": "Greg S"
+                  },
+                  {
+                    "id": "04591462-038f-4117-bbd0-d9161a5a66e1",
+                    "start": "2023-07-22T22:30:00Z",
+                    "end": "2023-07-22T23:30:00Z",
+                    "artist": "PUSH"
+                  },
+                  {
+                    "id": "bfb565ad-7fb3-454d-abdb-b75d89b2fbd3",
+                    "start": "2023-07-22T23:30:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "Bonzai All Stars"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "ed1997e7-39c5-402b-bd83-d116a2e0edf2",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T14:30:00Z",
+                    "artist": "Bennie Disko"
+                  },
+                  {
+                    "id": "f6337547-24b2-48a8-8ed9-d36c76a18a72",
+                    "start": "2023-07-22T14:30:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Raywell"
+                  },
+                  {
+                    "id": "1e29b359-138d-455a-9432-965660404c2a",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:30:00Z",
+                    "artist": "Disco Danny"
+                  },
+                  {
+                    "id": "8c6eb3f4-3f91-4367-bc87-f38704d09481",
+                    "start": "2023-07-22T17:30:00Z",
+                    "end": "2023-07-22T18:00:00Z",
+                    "artist": "Otto Wunderbar"
+                  },
+                  {
+                    "id": "65befe42-6d12-4986-986e-df5dfaac1990",
+                    "start": "2023-07-22T18:00:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "FeestDJRuud"
+                  },
+                  {
+                    "id": "65c65426-2891-46b5-bf0d-3ff3b0e789b8",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T20:00:00Z",
+                    "artist": "Gullie"
+                  },
+                  {
+                    "id": "839b6d24-0f99-4af8-bfa5-7fe8b24ca203",
+                    "start": "2023-07-22T20:00:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "Raywell &  Ron Simpson"
+                  },
+                  {
+                    "id": "2ae21040-46da-459a-9123-351612200937",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:00:00Z",
+                    "artist": "Lady Bee"
+                  },
+                  {
+                    "id": "eac19524-abfe-4b71-a739-827e477fa2b0",
+                    "start": "2023-07-22T22:00:00Z",
+                    "end": "2023-07-22T23:00:00Z",
+                    "artist": "Trobi"
+                  },
+                  {
+                    "id": "8aae58b8-1f4b-4e45-87e7-4eb91e8fe4b9",
+                    "start": "2023-07-22T23:00:00Z",
+                    "end": "2023-07-23T00:00:00Z",
+                    "artist": "Afro Bros"
+                  },
+                  {
+                    "id": "eaf2f59c-1e11-4fab-b29f-f02ebb3b9d4c",
+                    "start": "2023-07-23T00:00:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "Ruthless"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "30a6d59f-0896-4d7e-83e7-6caa5c15b811",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T13:00:00Z",
+                    "artist": "Revenja"
+                  },
+                  {
+                    "id": "10148ac8-05a1-4010-bad6-b0140a1a4061",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "Dark Phoenix"
+                  },
+                  {
+                    "id": "7dab85f4-139f-49a0-9381-65f48ac918e0",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Cryex"
+                  },
+                  {
+                    "id": "e6b3ce0e-c20b-403a-8cd3-9d7f1034cc49",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Killshot"
+                  },
+                  {
+                    "id": "fb6edff0-82f5-4d52-90c5-4989c80cc2d0",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:00:00Z",
+                    "artist": "Mad Dog"
+                  },
+                  {
+                    "id": "4992c869-798e-48b8-b628-776f99a86a4a",
+                    "start": "2023-07-22T17:00:00Z",
+                    "end": "2023-07-22T18:00:00Z",
+                    "artist": "Sakyra"
+                  },
+                  {
+                    "id": "e5b5a6dc-e11f-4d53-b10d-54a89db02754",
+                    "start": "2023-07-22T18:00:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Sandy Warez vs The Mind Destiny"
+                  },
+                  {
+                    "id": "035aa5fb-e60f-4afa-832d-03b21d06b871",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T20:00:00Z",
+                    "artist": "Neko vs Maissouille"
+                  },
+                  {
+                    "id": "80c66c9a-daa0-440e-8519-82e4a9ed6d67",
+                    "start": "2023-07-22T20:00:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "Remzcore"
+                  },
+                  {
+                    "id": "3210913c-e5aa-4a53-942d-d82230a45c4a",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:00:00Z",
+                    "artist": "The Dark Horror"
+                  },
+                  {
+                    "id": "43537f2d-d5ae-4c7f-9586-19f11c83a3b0",
+                    "start": "2023-07-22T22:00:00Z",
+                    "end": "2023-07-22T23:00:00Z",
+                    "artist": "Estasia vs Republic"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "f7178dd1-aea8-4239-ad3f-4061543610c9",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "Bridgeman"
+                  },
+                  {
+                    "id": "d940820f-4f39-47a7-8c19-0c9c24c6d985",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Atitdude"
+                  },
+                  {
+                    "id": "856ef98b-d231-4cd6-8292-e255752b6df7",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Los Bomberos"
+                  },
+                  {
+                    "id": "43ed99bf-8b51-4a85-8932-0c3f2b2fbc98",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:30:00Z",
+                    "artist": "Soulcity"
+                  },
+                  {
+                    "id": "219853c3-fe89-4604-9112-f7c4e065424b",
+                    "start": "2023-07-22T17:30:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Jonas Van Opstal"
+                  },
+                  {
+                    "id": "30c4c3c9-46e1-462e-b659-d45ed471ef5d",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T20:30:00Z",
+                    "artist": "Monta"
+                  },
+                  {
+                    "id": "a4c75b3c-b3d2-4997-b3a6-fb2f4090a9de",
+                    "start": "2023-07-22T20:30:00Z",
+                    "end": "2023-07-22T22:00:00Z",
+                    "artist": "Pisca"
+                  },
+                  {
+                    "id": "72dde3f4-89f0-4337-b30a-a4d364391d5b",
+                    "start": "2023-07-22T22:00:00Z",
+                    "end": "2023-07-22T23:30:00Z",
+                    "artist": "Himperson"
+                  },
+                  {
+                    "id": "4af74754-8eed-4180-9138-9b5c4a14d739",
+                    "start": "2023-07-22T23:30:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "Deuxfwa"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "33825726-c82f-4632-ba80-186ccaaa52ae",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "f605d720-6b0e-4512-aa6f-fda4f9067c37",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Shingo Nakamura"
+                  },
+                  {
+                    "id": "dfd20092-1587-4580-a62d-f9d6e30ff4dd",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:00:00Z",
+                    "artist": "Godlands"
+                  },
+                  {
+                    "id": "cf7dcf20-db09-4102-b3fd-ff9a6e2523d0",
+                    "start": "2023-07-22T17:00:00Z",
+                    "end": "2023-07-22T18:00:00Z",
+                    "artist": "Curbi"
+                  },
+                  {
+                    "id": "9d253d94-81c1-4e52-9b7b-5a5481a8308d",
+                    "start": "2023-07-22T18:00:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Ray Volpe"
+                  },
+                  {
+                    "id": "e5faa7ff-bc32-4f57-bb24-fd0c5666d79b",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T20:00:00Z",
+                    "artist": "Kompany"
+                  },
+                  {
+                    "id": "662a4fdb-1b26-43b6-bcca-515adbb69c86",
+                    "start": "2023-07-22T20:00:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "ARMNHMR"
+                  },
+                  {
+                    "id": "cc6a2a32-5e6b-4d5d-a9ae-780c3898387b",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:00:00Z",
+                    "artist": "Koven"
+                  },
+                  {
+                    "id": "50cc5380-dbe0-4477-9ee1-dc1310169796",
+                    "start": "2023-07-22T22:00:00Z",
+                    "end": "2023-07-22T23:00:00Z",
+                    "artist": "SLANDER"
+                  },
+                  {
+                    "id": "0abfa9f1-e7ae-4423-bee0-d896044f53eb",
+                    "start": "2023-07-22T23:00:00Z",
+                    "end": "2023-07-23T00:00:00Z",
+                    "artist": "Adventure Club"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "ba652701-32f1-404b-b78b-3deb2a1cf4f5",
+                    "start": "2023-07-22T12:30:00Z",
+                    "end": "2023-07-22T14:30:00Z",
+                    "artist": "Charlotte de Cock"
+                  },
+                  {
+                    "id": "efec45f8-08d1-402a-938c-be032389d999",
+                    "start": "2023-07-22T14:30:00Z",
+                    "end": "2023-07-22T16:30:00Z",
+                    "artist": "Capoon"
+                  },
+                  {
+                    "id": "54c35988-8f21-4e02-8117-d2ade5bd0f26",
+                    "start": "2023-07-22T16:30:00Z",
+                    "end": "2023-07-22T18:30:00Z",
+                    "artist": "Francesca Lombardo"
+                  },
+                  {
+                    "id": "7f4ea6a4-ab8a-48cb-9b4b-6ac9169d639f",
+                    "start": "2023-07-22T18:30:00Z",
+                    "end": "2023-07-22T20:30:00Z",
+                    "artist": "Amémé"
+                  },
+                  {
+                    "id": "a95f317d-2c28-4515-b232-969c73f2308d",
+                    "start": "2023-07-22T20:30:00Z",
+                    "end": "2023-07-22T23:30:00Z",
+                    "artist": "Bedouin"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "0643d704-2787-4362-b493-d808e0232a0a",
+                    "start": "2023-07-22T12:30:00Z",
+                    "end": "2023-07-22T18:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "ccac7092-eecb-4c33-97f5-c695feee7fd4",
+                    "start": "2023-07-22T18:30:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "Sophie Lloyd"
+                  },
+                  {
+                    "id": "5130a650-9325-48a5-a5c8-69090d00aa0a",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T21:30:00Z",
+                    "artist": "Todd Terry"
+                  },
+                  {
+                    "id": "65ebb8ca-780e-4cfe-9f02-7128501a1556",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T22:30:00Z",
+                    "artist": "Groove Armada"
+                  },
+                  {
+                    "id": "6c9b6862-b339-4169-ae28-557191c1c5f5",
+                    "start": "2023-07-22T22:30:00Z",
+                    "end": "2023-07-22T23:50:00Z",
+                    "artist": "Mousse T."
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "b4f6c31d-246c-4b17-8563-c1c5a1de39a8",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "09ee3809-4f23-4be8-9060-b50b5dc47353",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Neon Shadow"
+                  },
+                  {
+                    "id": "d2d9b95d-15d1-4887-8a0c-e48945337b37",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:30:00Z",
+                    "artist": "Symphony of Unity"
+                  },
+                  {
+                    "id": "fa1e3bf8-2cd9-4630-8da8-c5d20313e4f0",
+                    "start": "2023-07-22T17:30:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "Ramon Tapia"
+                  },
+                  {
+                    "id": "09eafec8-bc16-420d-ac99-586b50e06aae",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T21:30:00Z",
+                    "artist": "Klaudia Gawlas"
+                  },
+                  {
+                    "id": "8e48d83a-b3aa-4960-89c6-c20f71bad73f",
+                    "start": "2023-07-22T21:30:00Z",
+                    "end": "2023-07-22T23:30:00Z",
+                    "artist": "Indira Paganotto"
+                  },
+                  {
+                    "id": "6ab5931f-9962-418c-b77d-3e359e2fb212",
+                    "start": "2023-07-22T23:30:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "Reinier Zonneveld"
+                  }
+                ]
+              },
+              {
+                "name": "Core",
+                "events": [
+                  {
+                    "id": "9a6068c0-9679-43e2-8862-be09bac77f49",
+                    "start": "2023-07-22T12:30:00Z",
+                    "end": "2023-07-22T14:30:00Z",
+                    "artist": "Unruly Phoenix"
+                  },
+                  {
+                    "id": "18cbe6cf-4846-47ee-b64c-c79ee926d385",
+                    "start": "2023-07-22T14:30:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Human Rias"
+                  },
+                  {
+                    "id": "a708688d-d335-4017-9052-bc0328d11d2b",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:30:00Z",
+                    "artist": "Elif"
+                  },
+                  {
+                    "id": "3e858a4a-2cee-445a-be15-2b3c3bf1f28e",
+                    "start": "2023-07-22T17:30:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Armonica"
+                  },
+                  {
+                    "id": "15b279f4-9c74-4006-9c54-64eec53f6b20",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T21:00:00Z",
+                    "artist": "Oostil b2b The Element"
+                  },
+                  {
+                    "id": "5d4ad28f-c7b0-4d39-a40b-1b60d38895a7",
+                    "start": "2023-07-22T21:00:00Z",
+                    "end": "2023-07-22T23:00:00Z",
+                    "artist": "Brina Knauss"
+                  },
+                  {
+                    "id": "a1123e90-1f44-47a0-9bfe-80ac46a20a61",
+                    "start": "2023-07-22T23:00:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "&ME"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "f89ff7b6-db5e-4974-9cfb-15be62b78cf2",
+                    "start": "2023-07-22T12:30:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "Ben Malone"
+                  },
+                  {
+                    "id": "66b44013-324a-4992-92d8-f0f84278484b",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Sem Thomasson"
+                  },
+                  {
+                    "id": "df13b4cd-b473-4d31-94a1-649ba3c1b5f2",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Chico Rose"
+                  },
+                  {
+                    "id": "b48ddeb8-f0a3-4ae7-aedd-8d1fc234b141",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T17:00:00Z",
+                    "artist": "Double Pleasure"
+                  },
+                  {
+                    "id": "f934f494-3fe9-4934-88b2-bc9237e8dd78",
+                    "start": "2023-07-22T17:00:00Z",
+                    "end": "2023-07-22T18:30:00Z",
+                    "artist": "Kapuchon"
+                  },
+                  {
+                    "id": "e85be080-3607-4bf0-9a6a-61b198bddd04",
+                    "start": "2023-07-22T18:30:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "Kryder & B Jones"
+                  },
+                  {
+                    "id": "e4d04839-b9d0-4823-b5d7-38fccab9f044",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T20:30:00Z",
+                    "artist": "Jengi"
+                  },
+                  {
+                    "id": "6416294e-f542-4e2a-be50-896b10978852",
+                    "start": "2023-07-22T20:30:00Z",
+                    "end": "2023-07-22T22:00:00Z",
+                    "artist": "Sunnery James & Ryan Marciano present Amazone Project"
+                  },
+                  {
+                    "id": "943e8dec-d490-4d03-a71b-629af3df4144",
+                    "start": "2023-07-22T22:00:00Z",
+                    "end": "2023-07-22T23:00:00Z",
+                    "artist": "Öwnboss"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "b59014ad-8bd3-4fa0-ac4b-61e0f5490fda",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T13:00:00Z",
+                    "artist": "Peter Luts"
+                  },
+                  {
+                    "id": "f29a931d-d5ec-464e-bf3e-bcbb9d763000",
+                    "start": "2023-07-22T13:00:00Z",
+                    "end": "2023-07-22T14:00:00Z",
+                    "artist": "Fancy Inc"
+                  },
+                  {
+                    "id": "52471b58-4c32-4c5c-9892-07668af9e87b",
+                    "start": "2023-07-22T14:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Sentinel"
+                  },
+                  {
+                    "id": "d1d52c44-48fc-452a-a633-71fcf6fa20ee",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T16:00:00Z",
+                    "artist": "Goodboys"
+                  },
+                  {
+                    "id": "c14ffb24-8d1c-49e8-b2d7-bc57df8241f8",
+                    "start": "2023-07-22T16:00:00Z",
+                    "end": "2023-07-22T18:30:00Z",
+                    "artist": "Matisse & Sadko"
+                  },
+                  {
+                    "id": "8807e1bc-0282-40f9-b47f-1769075f37a7",
+                    "start": "2023-07-22T18:30:00Z",
+                    "end": "2023-07-22T19:30:00Z",
+                    "artist": "Julian Jordan"
+                  },
+                  {
+                    "id": "306ce844-3eeb-4535-9332-309c762be211",
+                    "start": "2023-07-22T19:30:00Z",
+                    "end": "2023-07-22T20:30:00Z",
+                    "artist": "Dubvision"
+                  },
+                  {
+                    "id": "f114a7fb-ddf2-48e4-997b-9b08fe4dc381",
+                    "start": "2023-07-22T20:30:00Z",
+                    "end": "2023-07-22T21:30:00Z",
+                    "artist": "Joseph Capriati"
+                  },
+                  {
+                    "id": "a6da20e6-e08b-4e7d-81b2-424510ddd146",
+                    "start": "2023-07-22T21:30:00Z",
+                    "end": "2023-07-22T23:30:00Z",
+                    "artist": "Paul Kalkbrenner"
+                  },
+                  {
+                    "id": "145e852c-eb0c-446c-bfc3-de1a1dcf9b4d",
+                    "start": "2023-07-22T23:30:00Z",
+                    "end": "2023-07-23T01:00:00Z",
+                    "artist": "Martin Garrix and Friends"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "55bbb25f-0afe-48e2-98cb-d118b0299297",
+                    "start": "2023-07-22T12:00:00Z",
+                    "end": "2023-07-22T15:00:00Z",
+                    "artist": "Jan V"
+                  },
+                  {
+                    "id": "5b23979b-cd0d-46c1-a673-966925214ce9",
+                    "start": "2023-07-22T15:00:00Z",
+                    "end": "2023-07-22T19:00:00Z",
+                    "artist": "Thierry VonderWarth"
+                  },
+                  {
+                    "id": "5c99c592-3628-4d8e-b477-b706e25d9922",
+                    "start": "2023-07-22T19:00:00Z",
+                    "end": "2023-07-22T20:00:00Z",
+                    "artist": "Bromeo's"
+                  },
+                  {
+                    "id": "355587d5-3089-484d-9161-2e7071e44aa4",
+                    "start": "2023-07-22T20:00:00Z",
+                    "end": "2023-07-23T00:00:00Z",
+                    "artist": "Jeroen Visser"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "date": "2023-07-23",
+            "name": "Sunday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "6e914db9-a3f9-4cc7-9c9b-c1346b1a6d6d",
+                    "start": "2023-07-23T12:00:00Z",
+                    "end": "2023-07-23T14:30:00Z",
+                    "artist": "Daybreak Session: Franky Rizardo"
+                  },
+                  {
+                    "id": "5f02ae88-249a-41d3-a145-15387eb24545",
+                    "start": "2023-07-23T14:30:00Z",
+                    "end": "2023-07-23T15:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "6cba931f-f4f7-4fbb-9551-8925f7cf15c1",
+                    "start": "2023-07-23T15:30:00Z",
+                    "end": "2023-07-23T16:30:00Z",
+                    "artist": "Korolova"
+                  },
+                  {
+                    "id": "da372004-d484-44d4-8383-f515c80ef696",
+                    "start": "2023-07-23T16:30:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "Yves Deruyter"
+                  },
+                  {
+                    "id": "d7f4913e-03d8-4729-93d2-8e2450aeabc5",
+                    "start": "2023-07-23T17:35:00Z",
+                    "end": "2023-07-23T18:35:00Z",
+                    "artist": "Vintage Culture"
+                  },
+                  {
+                    "id": "4d00fe6c-42bb-4519-a3c8-cfbd1cbab268",
+                    "start": "2023-07-23T18:35:00Z",
+                    "end": "2023-07-23T19:35:00Z",
+                    "artist": "Nina Kraviz"
+                  },
+                  {
+                    "id": "f28e9d41-9419-456a-9a6c-153b0e274bec",
+                    "start": "2023-07-23T19:40:00Z",
+                    "end": "2023-07-23T20:40:00Z",
+                    "artist": "Da Tweekaz"
+                  },
+                  {
+                    "id": "461d644a-5543-430f-8451-42c546691a0d",
+                    "start": "2023-07-23T20:45:00Z",
+                    "end": "2023-07-23T21:45:00Z",
+                    "artist": "Timmy Trumpet"
+                  },
+                  {
+                    "id": "21900789-4cf8-4739-be8d-f5e9955c548e",
+                    "start": "2023-07-23T21:50:00Z",
+                    "end": "2023-07-23T22:50:00Z",
+                    "artist": "Lost Frequencies"
+                  },
+                  {
+                    "id": "a7ec6039-5e59-42c8-909b-80d309d6f342",
+                    "start": "2023-07-23T22:55:00Z",
+                    "end": "2023-07-23T23:55:00Z",
+                    "artist": "Martin Garrix"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "63c5851d-6d04-4cb3-9ba8-c7675cced908",
+                    "start": "2023-07-23T12:00:00Z",
+                    "end": "2023-07-23T13:00:00Z",
+                    "artist": "Refuzion"
+                  },
+                  {
+                    "id": "8af98d0e-c78c-47b0-a5eb-4f5c573cf400",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:00:00Z",
+                    "artist": "Frontliner"
+                  },
+                  {
+                    "id": "a3aa9e34-e725-4848-b308-dadff97cab09",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:00:00Z",
+                    "artist": "Frontliner"
+                  },
+                  {
+                    "id": "8a59796d-438d-469a-8d95-ff9971e085b2",
+                    "start": "2023-07-23T14:00:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "Frequencerz"
+                  },
+                  {
+                    "id": "aff12824-7c98-4852-9634-dc29f9f77e9a",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Outsiders"
+                  },
+                  {
+                    "id": "382e7bee-7545-454d-8619-79203c10c50e",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "MANDY"
+                  },
+                  {
+                    "id": "b5bf00ef-301d-4fbb-93c6-ab140c2e5ada",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "KELTEK"
+                  },
+                  {
+                    "id": "98903994-cc07-4cdf-8a40-980cce373b24",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T18:30:00Z",
+                    "artist": "Sound Rush"
+                  },
+                  {
+                    "id": "4d2680de-64bf-4612-bda5-dae843d4f672",
+                    "start": "2023-07-23T18:30:00Z",
+                    "end": "2023-07-23T19:30:00Z",
+                    "artist": "Brennan Heart"
+                  },
+                  {
+                    "id": "33e24018-e9ba-46bc-9784-c08d6a73946b",
+                    "start": "2023-07-23T19:30:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "Rebelion & Vertile"
+                  },
+                  {
+                    "id": "3772f6b8-9c86-40e5-9a37-50a887220ea0",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "Mark With a K & Mc Chucky"
+                  },
+                  {
+                    "id": "cc315069-ae07-4c74-aee3-315a79c17908",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Angerfist"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "79a5fe7c-5db3-449e-a148-7cbb5f8117b0",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:30:00Z",
+                    "artist": "Mystique"
+                  },
+                  {
+                    "id": "d5723d1d-92d0-4217-bbc2-e121ed0b194e",
+                    "start": "2023-07-23T14:30:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "DiMaro"
+                  },
+                  {
+                    "id": "789a976e-a2bc-4df3-93a2-42d4316db2f1",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "Boy"
+                  },
+                  {
+                    "id": "405194d5-cf4c-49ca-b451-d6928d516689",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T18:00:00Z",
+                    "artist": "Quintino"
+                  },
+                  {
+                    "id": "80a1a74c-fe65-41e2-9f8c-46bdb7134dad",
+                    "start": "2023-07-23T18:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "Chuckie"
+                  },
+                  {
+                    "id": "e18d97b4-a360-4c5c-aa87-343ba3a746ea",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "Yves V"
+                  },
+                  {
+                    "id": "363caf63-003c-49c2-b1c9-1dfc66b7c9a9",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "Dyro"
+                  },
+                  {
+                    "id": "bba3f4d8-a2d0-4fc9-9c6d-fdf4fcab5bb6",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Firebeatz"
+                  },
+                  {
+                    "id": "3e62bb8a-f17a-47df-b3cd-d1591b60af9a",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "W&W"
+                  },
+                  {
+                    "id": "3068bb63-da94-454a-829d-e6a0316d3fa6",
+                    "start": "2023-07-23T23:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "Blasterjaxx"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "5e45c754-f909-490e-b262-3d14356b7900",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:30:00Z",
+                    "artist": "Bubba"
+                  },
+                  {
+                    "id": "be87eb0b-326f-4bc8-a391-eeae951d38b7",
+                    "start": "2023-07-23T14:30:00Z",
+                    "end": "2023-07-23T15:30:00Z",
+                    "artist": "DJ ND"
+                  },
+                  {
+                    "id": "50c508bc-c600-49e6-a54b-8d0ea95a8f5a",
+                    "start": "2023-07-23T15:30:00Z",
+                    "end": "2023-07-23T16:30:00Z",
+                    "artist": "Fabio Marcs"
+                  },
+                  {
+                    "id": "c5738035-0dad-4307-bbf6-5a19d251fbb6",
+                    "start": "2023-07-23T16:30:00Z",
+                    "end": "2023-07-23T18:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "fec32e3a-89e1-4c23-88ff-3853d8c46624",
+                    "start": "2023-07-23T18:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "DJ Flash"
+                  },
+                  {
+                    "id": "647ae2c8-00b8-43b6-9986-d8a5c60f82ef",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "MIMI"
+                  },
+                  {
+                    "id": "078e6007-9ec2-42e6-b150-152d9082a1be",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:30:00Z",
+                    "artist": "Team DAMP"
+                  },
+                  {
+                    "id": "df2c66c0-bfdc-4951-b62b-a1fdde434279",
+                    "start": "2023-07-23T21:30:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "B-KAY"
+                  },
+                  {
+                    "id": "da76473e-161f-4511-8ec5-6192c2e4b7f9",
+                    "start": "2023-07-23T23:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "To be announced"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "f503659c-dfcd-4cb8-85c4-e38512ab1746",
+                    "start": "2023-07-23T14:00:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "Farflow"
+                  },
+                  {
+                    "id": "0f4465fa-b1ac-4082-9455-6e6901450cba",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Midas Touch Showcase w/ SVB & Scepticz"
+                  },
+                  {
+                    "id": "4ec2c7f4-81d1-4a7e-93c7-15c0d39d4819",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "Phase & LaMeduza"
+                  },
+                  {
+                    "id": "34f99b12-f123-4b96-a6a5-7568f83f991d",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T18:00:00Z",
+                    "artist": "One87"
+                  },
+                  {
+                    "id": "7af5593c-1d23-4d27-a757-89b5b2137ab5",
+                    "start": "2023-07-23T18:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "CESCO"
+                  },
+                  {
+                    "id": "e87ef19d-3a10-4518-8046-aaf9c60dbcfe",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "The Sauce"
+                  },
+                  {
+                    "id": "d2efd00c-65cd-4a2d-8548-a1e7cc46f4bd",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "Serum"
+                  },
+                  {
+                    "id": "e0702575-1159-4570-b1fe-0416f8a4e0df",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "GEST"
+                  },
+                  {
+                    "id": "11b7c99a-82a0-4b68-b559-ce1eff6fa913",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "James Marvel"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "2edd0e31-9e04-4990-b39b-0db31b53d6a7",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:00:00Z",
+                    "artist": "Jackless & The Fox"
+                  },
+                  {
+                    "id": "24d792f8-8328-436a-99f4-998e7a8d8af1",
+                    "start": "2023-07-23T14:00:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "Toitoy Boys"
+                  },
+                  {
+                    "id": "8aec4e5e-7c0a-49ab-a53d-64386e526089",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Maximo"
+                  },
+                  {
+                    "id": "cb717e91-6022-47b2-8cb8-5343641eb3c4",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "Fre"
+                  },
+                  {
+                    "id": "7be2b524-2360-4a6a-ad10-532738ba7985",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T18:00:00Z",
+                    "artist": "Thim"
+                  },
+                  {
+                    "id": "a45505a9-2ad7-485e-a2ff-10329d14167d",
+                    "start": "2023-07-23T18:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "DJ Tom & Saxy Mr S"
+                  },
+                  {
+                    "id": "198aad53-5617-43ee-b76f-635b4461c806",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "Greg Lamore"
+                  },
+                  {
+                    "id": "440eaa5b-871d-4db6-a891-1dfed89ac483",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "QUE9"
+                  },
+                  {
+                    "id": "d14de237-cfa4-4fbb-aba2-a627befe1862",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Sol & Sura"
+                  },
+                  {
+                    "id": "7ec380ae-7165-4f97-a938-bd122331ee39",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "Luna Lucci"
+                  },
+                  {
+                    "id": "618d7234-d722-42a5-868b-2dd0fda3c010",
+                    "start": "2023-07-23T23:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "Many Moore"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "329d7ec9-5adc-4cd9-b9b6-9317eb724444",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:30:00Z",
+                    "artist": "Fred Baker"
+                  },
+                  {
+                    "id": "57bcc1aa-13f0-4cd9-9f94-e1f6faf26e9f",
+                    "start": "2023-07-23T14:30:00Z",
+                    "end": "2023-07-23T15:30:00Z",
+                    "artist": "RODG"
+                  },
+                  {
+                    "id": "ded25a32-3b65-4c01-862f-d2bfde154014",
+                    "start": "2023-07-23T15:30:00Z",
+                    "end": "2023-07-23T16:30:00Z",
+                    "artist": "Ruben de Ronde"
+                  },
+                  {
+                    "id": "cf027abb-6e0f-4ae3-b412-f0fceb54291c",
+                    "start": "2023-07-23T16:30:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "Cosmic Gate"
+                  },
+                  {
+                    "id": "33e0aef4-2b91-4433-904b-8e60f68835e9",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T18:30:00Z",
+                    "artist": "Nifra"
+                  },
+                  {
+                    "id": "e5995b59-1785-4f5c-866a-cc08636732bf",
+                    "start": "2023-07-23T18:30:00Z",
+                    "end": "2023-07-23T19:30:00Z",
+                    "artist": "Andrew Rayel"
+                  },
+                  {
+                    "id": "1bff1184-b228-4651-bf30-11adc816a9c2",
+                    "start": "2023-07-23T19:30:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "M.I.K.E. Push"
+                  },
+                  {
+                    "id": "600ca670-49b7-4dd9-bb28-e768d2df3312",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:30:00Z",
+                    "artist": "Ben Nicky presents Emotional Havoc"
+                  },
+                  {
+                    "id": "b500ed32-8866-4963-8aca-654f141dcace",
+                    "start": "2023-07-23T22:30:00Z",
+                    "end": "2023-07-23T23:50:00Z",
+                    "artist": "Gareth Emery"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "24f0a750-c38b-47cf-9b16-aca038cf7fe5",
+                    "start": "2023-07-23T12:30:00Z",
+                    "end": "2023-07-23T13:30:00Z",
+                    "artist": "Justin Wilkes"
+                  },
+                  {
+                    "id": "6a89e08c-5754-48a3-85a6-fc9130ffbe44",
+                    "start": "2023-07-23T13:30:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "Yamo"
+                  },
+                  {
+                    "id": "1fafbf94-587c-47f4-b369-53c6c496f0d4",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Elenore"
+                  },
+                  {
+                    "id": "1658d724-ba9c-4bd4-a7bb-6c3d9c71f677",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "Guz"
+                  },
+                  {
+                    "id": "e494e749-ec9b-4ce6-b454-e9d3ef5252bc",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "Majestic"
+                  },
+                  {
+                    "id": "efe47142-3281-422a-bd28-310109375c43",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:30:00Z",
+                    "artist": "DJ Licious"
+                  },
+                  {
+                    "id": "6c80e331-f3ee-43c2-ab7a-c72d57a7c902",
+                    "start": "2023-07-23T20:30:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Danny Howard"
+                  },
+                  {
+                    "id": "c681d2fb-b6a0-4b5a-b27b-36d96fd5a6c5",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "Delafino B2B DJ Gee"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "eab9e1dc-141b-47e0-b1ab-e5449988e55d",
+                    "start": "2023-07-23T12:30:00Z",
+                    "end": "2023-07-23T16:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "81883b3a-bdae-42eb-a10b-613948ec7745",
+                    "start": "2023-07-23T16:30:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "ZT Music"
+                  },
+                  {
+                    "id": "2111fd5a-0cce-418a-8e22-57c322704155",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T18:30:00Z",
+                    "artist": "Cemode & Seelen"
+                  },
+                  {
+                    "id": "b23fdd8e-4dac-48dc-8194-d1879de05c4d",
+                    "start": "2023-07-23T18:30:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "Joeri & Neon"
+                  },
+                  {
+                    "id": "5a112664-c269-41b7-b888-a9a750ceae4d",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:30:00Z",
+                    "artist": "Pat Krimson"
+                  },
+                  {
+                    "id": "ce16ccba-6048-450d-8784-d33e771116a0",
+                    "start": "2023-07-23T21:30:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "Roma"
+                  },
+                  {
+                    "id": "05c7b260-396b-4ef3-a0b1-c833c367b09a",
+                    "start": "2023-07-23T23:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "Disco Dasco"
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "aae0288a-e969-4604-9568-2f8d8049d8d0",
+                    "start": "2023-07-23T12:30:00Z",
+                    "end": "2023-07-23T14:30:00Z",
+                    "artist": "Rick Baguette"
+                  },
+                  {
+                    "id": "2c40fad5-8c6b-472f-b5e0-1d9dd7904d3a",
+                    "start": "2023-07-23T14:30:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Samm"
+                  },
+                  {
+                    "id": "b2939fa5-6623-45f9-9c47-2f5bef52506c",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "Sona"
+                  },
+                  {
+                    "id": "54191b47-e04e-4e03-9764-b9228765bbd5",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "GHEIST live"
+                  },
+                  {
+                    "id": "98b38ff2-2789-4a81-99eb-da808d147b8d",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:30:00Z",
+                    "artist": "Carlita"
+                  },
+                  {
+                    "id": "edf4d5c5-334d-4f94-aa02-c7aebf323a81",
+                    "start": "2023-07-23T20:30:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Dixon"
+                  },
+                  {
+                    "id": "7a424b36-e2c2-4c97-87db-990a9ab99d5b",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "Black Coffee"
+                  }
+                ]
+              },
+              {
+                "name": "CORE",
+                "events": [
+                  {
+                    "id": "3c029d4e-010e-48f2-aa6a-1758b5b92cf0",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "A Local Hero"
+                  },
+                  {
+                    "id": "fb572539-6882-454e-a6d9-a84f4dc264d7",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "Jordan Vickors"
+                  },
+                  {
+                    "id": "ed444390-6a68-4cc7-be69-68aebe647c51",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "Cellini"
+                  },
+                  {
+                    "id": "07efb6b9-1cd2-4356-b6cb-ce15f0a70792",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "CiCi"
+                  },
+                  {
+                    "id": "1eab9807-e424-4cc4-85d6-aaa06038f69e",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:30:00Z",
+                    "artist": "Chet Faker dj-set"
+                  },
+                  {
+                    "id": "819fa5c1-2aa9-4a0d-8819-cc63b2b488ae",
+                    "start": "2023-07-23T22:30:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "DJ BORING"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "ff5fc1b1-1fa2-4f5d-83b7-d9e532666506",
+                    "start": "2023-07-23T12:00:00Z",
+                    "end": "2023-07-23T14:00:00Z",
+                    "artist": "Lou8"
+                  },
+                  {
+                    "id": "4c0c8262-b94f-4553-8340-312f05f520d4",
+                    "start": "2023-07-23T14:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Dana Montana"
+                  },
+                  {
+                    "id": "ee3befe4-227c-4691-840a-8de38d16c91a",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:30:00Z",
+                    "artist": "Airwolf Paradise"
+                  },
+                  {
+                    "id": "493c5094-e1f4-4115-b032-03c77f79823a",
+                    "start": "2023-07-23T17:30:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "Dom Dolla"
+                  },
+                  {
+                    "id": "4583d990-4cc6-4be7-9cba-9c046490b69f",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:30:00Z",
+                    "artist": "Cloonee"
+                  },
+                  {
+                    "id": "c9605664-9670-44a2-896c-4ed83d825b63",
+                    "start": "2023-07-23T20:30:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Eats Everything"
+                  },
+                  {
+                    "id": "5b62a7d9-e7a9-491f-8ce8-db8f4b59a429",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:30:00Z",
+                    "artist": "Patrick Topping"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "be888ff4-8aa1-4e3d-afab-e79a5d2b135c",
+                    "start": "2023-07-23T12:00:00Z",
+                    "end": "2023-07-23T13:00:00Z",
+                    "artist": "D-Wayne"
+                  },
+                  {
+                    "id": "7b22aceb-2ac1-4d97-be88-11076fd9a522",
+                    "start": "2023-07-23T13:00:00Z",
+                    "end": "2023-07-23T14:00:00Z",
+                    "artist": "Faulhaber"
+                  },
+                  {
+                    "id": "2d102fd8-21ef-4ffb-ab82-bdd721b3cbfd",
+                    "start": "2023-07-23T14:00:00Z",
+                    "end": "2023-07-23T15:00:00Z",
+                    "artist": "Wolfpack vs Diego Miranda"
+                  },
+                  {
+                    "id": "06d801ab-40aa-4058-b52c-83d89d8fe0fd",
+                    "start": "2023-07-23T15:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Dubdogz"
+                  },
+                  {
+                    "id": "4267cd46-36e3-4779-a0dc-1e46a90a717f",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T17:00:00Z",
+                    "artist": "Azteck & Angemi"
+                  },
+                  {
+                    "id": "1bc6a3b7-24d9-4519-b217-24dfcbe76377",
+                    "start": "2023-07-23T17:00:00Z",
+                    "end": "2023-07-23T18:00:00Z",
+                    "artist": "Joel Corry"
+                  },
+                  {
+                    "id": "da95f0d5-b045-463b-bf33-48b591248cbc",
+                    "start": "2023-07-23T18:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "Martin Jensen"
+                  },
+                  {
+                    "id": "041f81f1-5277-4fb4-b0e6-a7cc294f0afb",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "DJ Diesel"
+                  },
+                  {
+                    "id": "36f1efb1-ca07-4fcb-9540-d497185dc79d",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-23T21:00:00Z",
+                    "artist": "John Newman"
+                  },
+                  {
+                    "id": "475ee136-90f1-49ef-ab7d-c6141d45516b",
+                    "start": "2023-07-23T21:00:00Z",
+                    "end": "2023-07-23T22:00:00Z",
+                    "artist": "Quintino"
+                  },
+                  {
+                    "id": "1ed31de4-ecfc-47cd-a3d8-ff6dcf798095",
+                    "start": "2023-07-23T22:00:00Z",
+                    "end": "2023-07-23T23:00:00Z",
+                    "artist": "Bassjackers"
+                  },
+                  {
+                    "id": "dcc7d8bc-463d-492c-9891-48b6302fff62",
+                    "start": "2023-07-23T23:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "3 Are Legend"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "97e87091-5e90-430d-90c9-294ef5754a94",
+                    "start": "2023-07-23T12:00:00Z",
+                    "end": "2023-07-23T16:00:00Z",
+                    "artist": "Mr E"
+                  },
+                  {
+                    "id": "ea4562b5-53da-4247-94e2-af66745aa114",
+                    "start": "2023-07-23T16:00:00Z",
+                    "end": "2023-07-23T19:00:00Z",
+                    "artist": "The Bobmeister"
+                  },
+                  {
+                    "id": "5935506c-aee6-499c-ab29-aed81bbc662c",
+                    "start": "2023-07-23T19:00:00Z",
+                    "end": "2023-07-23T20:00:00Z",
+                    "artist": "Peter Wackel"
+                  },
+                  {
+                    "id": "b36dd01d-4458-4eca-a560-038ae0bd5e97",
+                    "start": "2023-07-23T20:00:00Z",
+                    "end": "2023-07-24T00:00:00Z",
+                    "artist": "Feest DJ Lucki Luc"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Week 2",
+        "days": [
+          {
+            "date": "2023-07-28",
+            "name": "Friday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "f12837d2-c9b2-4a05-be4f-2c33e4c53192",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "Daybreak session: Claptone"
+                  },
+                  {
+                    "id": "f44c917e-d33c-462f-82d1-98f180885a13",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T15:30:00Z",
+                    "artist": "Brina Knauss"
+                  },
+                  {
+                    "id": "bc8bc164-387d-4382-9b00-979f9da16636",
+                    "start": "2023-07-28T15:30:00Z",
+                    "end": "2023-07-28T16:30:00Z",
+                    "artist": "Matisse & Sadko"
+                  },
+                  {
+                    "id": "030021c2-c299-4bf8-8f6e-0ea0f5532b57",
+                    "start": "2023-07-28T16:30:00Z",
+                    "end": "2023-07-28T17:30:00Z",
+                    "artist": "Öwnboss"
+                  },
+                  {
+                    "id": "864c7956-f8e0-4291-be8e-897ac6ef3854",
+                    "start": "2023-07-28T17:35:00Z",
+                    "end": "2023-07-28T18:35:00Z",
+                    "artist": "Purple Disco Machine"
+                  },
+                  {
+                    "id": "4dce16b1-750f-4682-9d91-f5aca6facd93",
+                    "start": "2023-07-28T18:40:00Z",
+                    "end": "2023-07-28T19:40:00Z",
+                    "artist": "B Jones"
+                  },
+                  {
+                    "id": "7a14c8be-5812-418d-a6f3-7de95f2a9a3b",
+                    "start": "2023-07-28T19:40:00Z",
+                    "end": "2023-07-28T20:40:00Z",
+                    "artist": "Dom Dolla"
+                  },
+                  {
+                    "id": "b642da43-e225-43d8-a3b8-e775295445bd",
+                    "start": "2023-07-28T20:40:00Z",
+                    "end": "2023-07-28T21:40:00Z",
+                    "artist": "Kölsch"
+                  },
+                  {
+                    "id": "61e9c23e-6442-4599-8b39-1a65fa19be7b",
+                    "start": "2023-07-28T21:45:00Z",
+                    "end": "2023-07-28T22:45:00Z",
+                    "artist": "Steve Angello & Sebastian Ingrosso"
+                  },
+                  {
+                    "id": "95dbc57c-08ec-4e22-acaf-4c72e6f14c8b",
+                    "start": "2023-07-28T22:50:00Z",
+                    "end": "2023-07-28T23:50:00Z",
+                    "artist": "Tiësto"
+                  },
+                  {
+                    "id": "58301ee5-7367-48c2-9df2-154c3f055db1",
+                    "start": "2023-07-28T23:50:00Z",
+                    "end": "2023-07-29T00:50:00Z",
+                    "artist": "Hardwell"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "d05ff388-d101-4ceb-b4f4-45476b9f21d6",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:30:00Z",
+                    "artist": "Goldfox"
+                  },
+                  {
+                    "id": "b20a909d-fa6f-48fc-8b91-019f38e39aeb",
+                    "start": "2023-07-28T13:30:00Z",
+                    "end": "2023-07-28T15:00:00Z",
+                    "artist": "Jeroen Delodder"
+                  },
+                  {
+                    "id": "cfa47c1e-1d83-4832-9b3c-3593f250f74e",
+                    "start": "2023-07-28T15:00:00Z",
+                    "end": "2023-07-28T16:30:00Z",
+                    "artist": "Joyhauser"
+                  },
+                  {
+                    "id": "9aaa8854-a343-4511-a37c-da944a4fd64c",
+                    "start": "2023-07-28T16:30:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Amber Broos"
+                  },
+                  {
+                    "id": "2b126002-2ac2-4025-906a-0206af9377dd",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "KAS:ST"
+                  },
+                  {
+                    "id": "e5674ff4-f296-453d-8f9c-254da1776622",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "HI-LO"
+                  },
+                  {
+                    "id": "6fa7a835-de5c-441b-91b9-59e9cb9626f1",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "Joris Voorn"
+                  },
+                  {
+                    "id": "d83a6b7e-6ee3-4e8e-b360-a614d78145ac",
+                    "start": "2023-07-28T23:00:00Z",
+                    "end": "2023-07-29T00:30:00Z",
+                    "artist": "Eric Prydz presents HOLO"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "653de2e1-a356-4e29-8a2d-b29b8794f8cd",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:00:00Z",
+                    "artist": "Primate"
+                  },
+                  {
+                    "id": "c9745ba3-4a00-4403-b686-2a9c5ff84d89",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:00:00Z",
+                    "artist": "Lexurus"
+                  },
+                  {
+                    "id": "224155bf-4d68-4019-9050-706bd3440abd",
+                    "start": "2023-07-28T14:00:00Z",
+                    "end": "2023-07-28T15:00:00Z",
+                    "artist": "Jeanie"
+                  },
+                  {
+                    "id": "c0953b38-891d-443f-8d6f-81fcdfeaf9ca",
+                    "start": "2023-07-28T15:00:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Turno & Dreps"
+                  },
+                  {
+                    "id": "5f061b7c-848b-4234-a559-063f3264ccb8",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:00:00Z",
+                    "artist": "Skepsis & Darkzy"
+                  },
+                  {
+                    "id": "baecead4-4729-4177-b430-19e09c876d59",
+                    "start": "2023-07-28T17:00:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Calcium B2B Layz"
+                  },
+                  {
+                    "id": "c34f03be-7d16-434e-9d0d-e7656d34cc35",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T19:00:00Z",
+                    "artist": "Metrik"
+                  },
+                  {
+                    "id": "d287a4a5-caa2-412f-9db5-88e311177c51",
+                    "start": "2023-07-28T19:00:00Z",
+                    "end": "2023-07-28T20:00:00Z",
+                    "artist": "Murdock"
+                  },
+                  {
+                    "id": "c42a4f4f-ffa5-4e66-8a64-612b67bd9f2c",
+                    "start": "2023-07-28T20:00:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "Mollie Collins"
+                  },
+                  {
+                    "id": "414ef0dd-edfd-45ab-bfcb-d7a60da8210b",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "Andy C & Tonn Piper"
+                  },
+                  {
+                    "id": "cea9975e-1da7-412d-9144-86cae0e40bd5",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "USED"
+                  },
+                  {
+                    "id": "308ac778-efec-49de-af8b-b1e46b933aca",
+                    "start": "2023-07-28T23:00:00Z",
+                    "end": "2023-07-29T00:00:00Z",
+                    "artist": "A.M.C ft Phantom"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "ca5d6ba6-c2a0-4b87-9450-9e15e10b45d3",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "DJ Chanelle"
+                  },
+                  {
+                    "id": "5eebe2c3-70bf-4cd0-a629-911916f92a20",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "DJ Sahra"
+                  },
+                  {
+                    "id": "226d071d-e1fe-40c7-a761-09363f413161",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:30:00Z",
+                    "artist": "Eagl"
+                  },
+                  {
+                    "id": "574a914f-bd0f-4621-8b80-ccb2930d3da5",
+                    "start": "2023-07-28T17:30:00Z",
+                    "end": "2023-07-28T18:30:00Z",
+                    "artist": "Flavour Drop"
+                  },
+                  {
+                    "id": "d14ff117-bea5-46ad-99a4-74ed99214171",
+                    "start": "2023-07-28T18:30:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "KEVIN KOFII"
+                  },
+                  {
+                    "id": "ac59c6e1-6e3f-446a-bb22-a5327f0f98be",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T20:30:00Z",
+                    "artist": "Nina Black"
+                  },
+                  {
+                    "id": "7ea1072b-4a4f-4f15-bb21-81b7b52b207c",
+                    "start": "2023-07-28T20:30:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "Kwijt Trek System"
+                  },
+                  {
+                    "id": "613fdc48-e04d-48f1-88ac-409f4b29238f",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:30:00Z",
+                    "artist": "Rick & James 80’s Party"
+                  },
+                  {
+                    "id": "cda4fd71-a673-4a5c-99a5-29e0ac80b915",
+                    "start": "2023-07-28T23:30:00Z",
+                    "end": "2023-07-29T01:00:00Z",
+                    "artist": "DJ Creator"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "b330b4a8-d491-439d-a003-b476e3c80558",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:00:00Z",
+                    "artist": "Ender vs Massive Disorder"
+                  },
+                  {
+                    "id": "4cd9b6cc-9c02-419c-a60a-b9e898c85346",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:00:00Z",
+                    "artist": "Rayzen"
+                  },
+                  {
+                    "id": "2d770276-a08a-4523-b2fd-56274450a7cf",
+                    "start": "2023-07-28T14:00:00Z",
+                    "end": "2023-07-28T15:00:00Z",
+                    "artist": "Mish"
+                  },
+                  {
+                    "id": "175c2390-26a5-42c0-b849-7afb1ccde674",
+                    "start": "2023-07-28T15:00:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Hysta"
+                  },
+                  {
+                    "id": "48a312ad-87bd-4c6d-86cb-47fa9850f75e",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:00:00Z",
+                    "artist": "Broken Minds"
+                  },
+                  {
+                    "id": "c160714d-a4e8-41a8-885a-c30dbb0fb19e",
+                    "start": "2023-07-28T17:00:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Detest vs eDUB"
+                  },
+                  {
+                    "id": "3fc599d0-e69c-4b22-a546-e865d2ec551f",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T19:00:00Z",
+                    "artist": "DRS vs Sandy Warez"
+                  },
+                  {
+                    "id": "fec9b58e-c54e-4e34-956a-7812f30a26ef",
+                    "start": "2023-07-28T19:00:00Z",
+                    "end": "2023-07-28T20:00:00Z",
+                    "artist": "Dimitri K"
+                  },
+                  {
+                    "id": "a3dc7cb6-6bd7-4b02-ad7c-3f79009bc275",
+                    "start": "2023-07-28T20:00:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "Lunakorpz"
+                  },
+                  {
+                    "id": "abea8995-911a-4554-91c0-1e1ae522a828",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "Unicorn on Keta"
+                  },
+                  {
+                    "id": "f3eb556f-ba18-41e4-b5eb-77ff56e39ff1",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "MBK vs NSD"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "3cb0f5d5-4c00-4dca-ae0e-d531e46ee365",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:00:00Z",
+                    "artist": "Structure"
+                  },
+                  {
+                    "id": "8d121822-4919-4ae0-a7e8-a59b055e092b",
+                    "start": "2023-07-28T14:00:00Z",
+                    "end": "2023-07-28T15:00:00Z",
+                    "artist": "Bram Delux"
+                  },
+                  {
+                    "id": "22dcefa3-4904-48f6-9abe-97e4693d9b0f",
+                    "start": "2023-07-28T15:00:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "DJ Luk"
+                  },
+                  {
+                    "id": "a6d2923b-d631-4954-bef0-9a3f409c2451",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:00:00Z",
+                    "artist": "Bros Rodriguez"
+                  },
+                  {
+                    "id": "5a5472e2-6e17-4c91-a23e-4fcefbeeef39",
+                    "start": "2023-07-28T17:00:00Z",
+                    "end": "2023-07-28T18:30:00Z",
+                    "artist": "PartyShakerz"
+                  },
+                  {
+                    "id": "a7bf6819-c977-415a-b554-6b72163d1c96",
+                    "start": "2023-07-28T18:30:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "DJ Kat"
+                  },
+                  {
+                    "id": "45918d11-0a72-4106-b08a-b5f77391f35e",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T20:30:00Z",
+                    "artist": "Funk D"
+                  },
+                  {
+                    "id": "f533d1f7-4c69-4836-bc3c-400ded5fbdd6",
+                    "start": "2023-07-28T20:30:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "Dimitri Wouters"
+                  },
+                  {
+                    "id": "0a3d58d5-ce81-4efc-a316-f48a42106980",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "Double-U"
+                  },
+                  {
+                    "id": "a600f5fa-1bfb-4c7d-bc00-274aff9bd41d",
+                    "start": "2023-07-28T23:00:00Z",
+                    "end": "2023-07-29T00:00:00Z",
+                    "artist": "Winterclubbing All Stars"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "d0032749-66a3-4b2a-a586-d9ded41840b4",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "Rdeem"
+                  },
+                  {
+                    "id": "d3bb5044-6345-405b-aba7-0549b761ccc7",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T15:30:00Z",
+                    "artist": "Firaga"
+                  },
+                  {
+                    "id": "dc6926a4-054a-4722-91f1-ad4a7fb4080b",
+                    "start": "2023-07-28T15:30:00Z",
+                    "end": "2023-07-28T17:00:00Z",
+                    "artist": "Fabio Fusco"
+                  },
+                  {
+                    "id": "3d922778-5549-4792-9909-9f1c396971dc",
+                    "start": "2023-07-28T17:00:00Z",
+                    "end": "2023-07-28T18:30:00Z",
+                    "artist": "WHITENO1SE"
+                  },
+                  {
+                    "id": "71f03403-0dad-4980-89c2-c648733249fc",
+                    "start": "2023-07-28T18:30:00Z",
+                    "end": "2023-07-28T19:45:00Z",
+                    "artist": "Skazi"
+                  },
+                  {
+                    "id": "9318c63e-cb8f-4814-b1d3-89c3f78c7efa",
+                    "start": "2023-07-28T19:45:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "Blastoyz"
+                  },
+                  {
+                    "id": "4d6f1ec3-d56e-46a4-8a13-f29af8e04cec",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T22:30:00Z",
+                    "artist": "Vegas"
+                  },
+                  {
+                    "id": "2f9909e1-e545-4011-9345-5dedff07d0fe",
+                    "start": "2023-07-28T22:30:00Z",
+                    "end": "2023-07-28T23:50:00Z",
+                    "artist": "Neelix"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "bfc75373-d44b-4f7a-b49c-4518910554e2",
+                    "start": "2023-07-28T12:30:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "Calao"
+                  },
+                  {
+                    "id": "594e2722-e4a5-4456-a267-22031ac5f582",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T16:30:00Z",
+                    "artist": "Nick Bril"
+                  },
+                  {
+                    "id": "5087ab83-d36b-4561-a6af-3d351820c2cc",
+                    "start": "2023-07-28T16:30:00Z",
+                    "end": "2023-07-28T18:30:00Z",
+                    "artist": "Re.You"
+                  },
+                  {
+                    "id": "4ebf93c0-e7fb-400b-9a17-38dc233f002f",
+                    "start": "2023-07-28T18:30:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "Biesmans Live"
+                  },
+                  {
+                    "id": "1a69d76b-a5f4-437a-8d49-fe1eb4cd45d7",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T21:30:00Z",
+                    "artist": "Eelke Kleijn"
+                  },
+                  {
+                    "id": "7c309ced-5cb9-4150-9fd4-59d8ed5001bf",
+                    "start": "2023-07-28T21:30:00Z",
+                    "end": "2023-07-28T23:30:00Z",
+                    "artist": "Nico Morano"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "ad942579-435c-4ea8-a35c-5b52ce294cd4",
+                    "start": "2023-07-28T12:30:00Z",
+                    "end": "2023-07-28T15:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "f588fb9f-06d0-469d-bafa-6893988af69c",
+                    "start": "2023-07-28T15:30:00Z",
+                    "end": "2023-07-28T16:30:00Z",
+                    "artist": "DJ Pombak"
+                  },
+                  {
+                    "id": "fa2c7a67-e43d-4039-bf6c-b2d7058a40f8",
+                    "start": "2023-07-28T16:30:00Z",
+                    "end": "2023-07-28T17:30:00Z",
+                    "artist": "DJ Yolotanker"
+                  },
+                  {
+                    "id": "cd6bce59-97f0-473a-a62b-9153f8803641",
+                    "start": "2023-07-28T17:30:00Z",
+                    "end": "2023-07-28T18:30:00Z",
+                    "artist": "Omdat Het Kan Soundsystem ft. Average Rob"
+                  },
+                  {
+                    "id": "43e100d3-5e7c-4c80-a4d2-df6348d9314c",
+                    "start": "2023-07-28T18:30:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "Gladde Paling"
+                  },
+                  {
+                    "id": "37870190-b5b6-4a49-997a-1166257cd4e9",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T20:30:00Z",
+                    "artist": "Dikke Baap"
+                  },
+                  {
+                    "id": "0420e580-2dec-41cf-94c0-df3e68782329",
+                    "start": "2023-07-28T20:30:00Z",
+                    "end": "2023-07-28T21:30:00Z",
+                    "artist": "Michael Amani"
+                  },
+                  {
+                    "id": "acb4eb0d-6997-4918-88f1-3a0ccbec9178",
+                    "start": "2023-07-28T21:30:00Z",
+                    "end": "2023-07-28T22:30:00Z",
+                    "artist": "Vieze Asbak"
+                  },
+                  {
+                    "id": "bf94ab9d-0fd6-4bcc-a385-65d7d12050da",
+                    "start": "2023-07-28T22:30:00Z",
+                    "end": "2023-07-28T23:30:00Z",
+                    "artist": "Natte Vistick"
+                  },
+                  {
+                    "id": "28aca7d2-fc04-42b7-bdd3-089996549614",
+                    "start": "2023-07-28T23:30:00Z",
+                    "end": "2023-07-29T00:00:00Z",
+                    "artist": "Vissa Collectief"
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "c06df190-aee7-44a9-aa63-cc3de1c903b7",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:30:00Z",
+                    "artist": "Amekmar"
+                  },
+                  {
+                    "id": "f50971b6-3054-439b-9d67-a068498cc651",
+                    "start": "2023-07-28T13:30:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "e99e6785-31fe-4a4e-ac7a-e5dc67e3022d",
+                    "start": "2023-07-28T13:30:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "VE/RA"
+                  },
+                  {
+                    "id": "0cc1bd0c-2958-4267-8a9d-d70bff97a10c",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Klaps"
+                  },
+                  {
+                    "id": "aa89c14f-551b-49ff-9db5-c3e1df96f90d",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:30:00Z",
+                    "artist": "Patrick Mason"
+                  },
+                  {
+                    "id": "236b392f-2fc4-4bc7-a7c2-e7db386df64f",
+                    "start": "2023-07-28T17:30:00Z",
+                    "end": "2023-07-28T19:00:00Z",
+                    "artist": "999999999"
+                  },
+                  {
+                    "id": "6153fa4f-79ef-4893-a04c-70bc5356de7e",
+                    "start": "2023-07-28T19:00:00Z",
+                    "end": "2023-07-28T20:30:00Z",
+                    "artist": "Hector Oaks"
+                  },
+                  {
+                    "id": "f247ff2c-10da-4cbd-8696-d9feef288b77",
+                    "start": "2023-07-28T20:30:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "I Hate Models"
+                  },
+                  {
+                    "id": "5104f73f-376f-4990-903c-4bc1af148b4d",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:30:00Z",
+                    "artist": "Nina Kraviz"
+                  },
+                  {
+                    "id": "68f91674-60cb-4915-a4d2-87ed183a9c9c",
+                    "start": "2023-07-28T23:30:00Z",
+                    "end": "2023-07-29T01:00:00Z",
+                    "artist": "Diøn"
+                  }
+                ]
+              },
+              {
+                "name": "Core",
+                "events": [
+                  {
+                    "id": "dc985f4b-d38a-4bda-9a12-76b0b89a023b",
+                    "start": "2023-07-28T12:30:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "Olympe"
+                  },
+                  {
+                    "id": "7a4fe7bd-918b-4ece-86ec-1e7e7d1344cc",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T16:30:00Z",
+                    "artist": "Dyzen"
+                  },
+                  {
+                    "id": "29d66cdf-dae0-4725-ab13-a5a4c0adfae8",
+                    "start": "2023-07-28T16:30:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Amémé"
+                  },
+                  {
+                    "id": "eb80aedb-98e5-4aa7-8c0b-bf89189c985d",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T19:30:00Z",
+                    "artist": "Dino Lenny"
+                  },
+                  {
+                    "id": "a14d68dc-cf64-4347-9176-ed2057857ea0",
+                    "start": "2023-07-28T19:30:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "HAAi"
+                  },
+                  {
+                    "id": "812772d5-e608-4c9e-aeb7-1b7e6c6b9717",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "Trikk b2b Jimi Jules"
+                  },
+                  {
+                    "id": "c3e3ebb5-6085-4050-8a46-5e0cf3488582",
+                    "start": "2023-07-28T23:00:00Z",
+                    "end": "2023-07-29T01:00:00Z",
+                    "artist": "Mind Against"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "2a12ade3-758b-4a31-ae9c-eca23c5e9cf5",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:00:00Z",
+                    "artist": "Neon"
+                  },
+                  {
+                    "id": "7cf265d8-259e-4453-8fc2-677f442509b5",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:30:00Z",
+                    "artist": "Tita Lau"
+                  },
+                  {
+                    "id": "8000fb64-9f91-4a1c-a6f3-3858710df90e",
+                    "start": "2023-07-28T14:30:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Korolova"
+                  },
+                  {
+                    "id": "9e1a737e-e05e-4045-815f-a18fad822113",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Claptone"
+                  },
+                  {
+                    "id": "236b4232-5cec-410e-8dd8-4ecaf37096d2",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T20:00:00Z",
+                    "artist": "Meduza"
+                  },
+                  {
+                    "id": "ed4f0005-22b0-4d12-9ca2-05dcd641976b",
+                    "start": "2023-07-28T20:00:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "James Hype"
+                  },
+                  {
+                    "id": "5846dd01-ef57-4e9d-90ee-13c8f86aa448",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-29T00:00:00Z",
+                    "artist": "Vintage Culture"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "05d678dc-b37e-4a73-8fb4-383c18592a7a",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T13:00:00Z",
+                    "artist": "Meaghan"
+                  },
+                  {
+                    "id": "0403575f-f9d0-47a7-8bc5-3c6e83892949",
+                    "start": "2023-07-28T13:00:00Z",
+                    "end": "2023-07-28T14:00:00Z",
+                    "artist": "Lennert Wolfs"
+                  },
+                  {
+                    "id": "1058e768-5907-44ca-9dd3-1a471903c9b8",
+                    "start": "2023-07-28T14:00:00Z",
+                    "end": "2023-07-28T15:00:00Z",
+                    "artist": "La Fuente"
+                  },
+                  {
+                    "id": "54ca19f3-49f1-483e-9b7c-f34aec0725e4",
+                    "start": "2023-07-28T15:00:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Michenlo"
+                  },
+                  {
+                    "id": "4c492995-fa05-4be2-8ac0-d8f0b7bba5c8",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T17:00:00Z",
+                    "artist": "Cat Dealers"
+                  },
+                  {
+                    "id": "7b2c5514-20f2-42d3-b0ab-f00bea058b73",
+                    "start": "2023-07-28T17:00:00Z",
+                    "end": "2023-07-28T18:00:00Z",
+                    "artist": "Topic"
+                  },
+                  {
+                    "id": "2694d8bf-5b5a-4452-a505-57a959a9feb1",
+                    "start": "2023-07-28T18:00:00Z",
+                    "end": "2023-07-28T19:00:00Z",
+                    "artist": "Lucas & Steve"
+                  },
+                  {
+                    "id": "7e258d0b-810b-4701-bcd3-e6d1f73acedd",
+                    "start": "2023-07-28T19:00:00Z",
+                    "end": "2023-07-28T20:00:00Z",
+                    "artist": "Henri PFR"
+                  },
+                  {
+                    "id": "9e389b4c-a87d-4eef-b789-bd27a852aaa1",
+                    "start": "2023-07-28T20:00:00Z",
+                    "end": "2023-07-28T21:00:00Z",
+                    "artist": "Ofenbach"
+                  },
+                  {
+                    "id": "75ebb6e0-37b3-4077-971d-493fba8d5669",
+                    "start": "2023-07-28T21:00:00Z",
+                    "end": "2023-07-28T22:00:00Z",
+                    "artist": "Mike Williams"
+                  },
+                  {
+                    "id": "65cd3c06-cf34-4f1f-afd1-e8942eaea2f3",
+                    "start": "2023-07-28T22:00:00Z",
+                    "end": "2023-07-28T23:00:00Z",
+                    "artist": "Nicky Romero"
+                  },
+                  {
+                    "id": "c55453cd-7f3f-49b3-b625-491cea15783c",
+                    "start": "2023-07-28T23:00:00Z",
+                    "end": "2023-07-28T23:45:00Z",
+                    "artist": "Sub Zero Project"
+                  },
+                  {
+                    "id": "22a8bbd3-5681-4fa8-be43-6f34faf94ff8",
+                    "start": "2023-07-28T23:45:00Z",
+                    "end": "2023-07-29T00:20:00Z",
+                    "artist": "Ran-D"
+                  },
+                  {
+                    "id": "1751e625-0f9f-4d4a-9916-f9ca4b0b700b",
+                    "start": "2023-07-29T00:20:00Z",
+                    "end": "2023-07-29T00:50:00Z",
+                    "artist": "Sefa"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "e0d2a074-945d-461c-a5bf-3b75a9825563",
+                    "start": "2023-07-28T12:00:00Z",
+                    "end": "2023-07-28T16:00:00Z",
+                    "artist": "Filip"
+                  },
+                  {
+                    "id": "b6b94ec9-1e5c-4b57-b28b-632905c352c6",
+                    "start": "2023-07-28T16:00:00Z",
+                    "end": "2023-07-28T19:00:00Z",
+                    "artist": "Tom Cosyns"
+                  },
+                  {
+                    "id": "ef1860f8-fe8b-4880-8605-8a60b67b15bc",
+                    "start": "2023-07-28T19:00:00Z",
+                    "end": "2023-07-28T20:00:00Z",
+                    "artist": "Christoff"
+                  },
+                  {
+                    "id": "4684bbf3-cfd0-414e-a6b1-52d7f1c1d0ca",
+                    "start": "2023-07-28T20:00:00Z",
+                    "end": "2023-07-29T00:00:00Z",
+                    "artist": "Funkhauser"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "date": "2023-07-29",
+            "name": "Saturday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "52b7ed6b-26a5-4405-bf40-fc71f4729413",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T14:30:00Z",
+                    "artist": "Daybreak session: Laidback Luke presents Wayback Luke"
+                  },
+                  {
+                    "id": "568dad6b-6503-41ba-900b-f26a1c2b2744",
+                    "start": "2023-07-29T14:30:00Z",
+                    "end": "2023-07-29T15:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "a03f20cf-58be-412c-87f0-4a50e44da70b",
+                    "start": "2023-07-29T15:30:00Z",
+                    "end": "2023-07-29T16:30:00Z",
+                    "artist": "Carola"
+                  },
+                  {
+                    "id": "901db60b-47b4-4333-9695-17ed933b7223",
+                    "start": "2023-07-29T16:30:00Z",
+                    "end": "2023-07-29T17:30:00Z",
+                    "artist": "Goodboys"
+                  },
+                  {
+                    "id": "8e216762-14d1-4af8-890c-d002922e8ab8",
+                    "start": "2023-07-29T17:35:00Z",
+                    "end": "2023-07-29T18:35:00Z",
+                    "artist": "Yves V & Regi"
+                  },
+                  {
+                    "id": "b9ee2572-9af2-4a2a-beb0-511b2ce69ac1",
+                    "start": "2023-07-29T18:40:00Z",
+                    "end": "2023-07-29T19:40:00Z",
+                    "artist": "NERVO"
+                  },
+                  {
+                    "id": "57b0dc46-2323-4a57-9b74-0fd18b519d48",
+                    "start": "2023-07-29T19:40:00Z",
+                    "end": "2023-07-29T20:40:00Z",
+                    "artist": "John Newman"
+                  },
+                  {
+                    "id": "42da8134-9c37-4733-96d5-5f6a13dc967b",
+                    "start": "2023-07-29T20:40:00Z",
+                    "end": "2023-07-29T21:40:00Z",
+                    "artist": "Tale Of Us"
+                  },
+                  {
+                    "id": "618de341-16cf-4f0c-9fda-234b78b22c35",
+                    "start": "2023-07-29T21:45:00Z",
+                    "end": "2023-07-29T22:45:00Z",
+                    "artist": "Armin van Buuren"
+                  },
+                  {
+                    "id": "b2190e27-d04b-4b43-b077-750ddbf0dee1",
+                    "start": "2023-07-29T22:50:00Z",
+                    "end": "2023-07-29T23:50:00Z",
+                    "artist": "Dimitri Vegas & Like Mike"
+                  },
+                  {
+                    "id": "9e37a8c1-63d4-4a64-969f-f97bff5c84ad",
+                    "start": "2023-07-29T23:50:00Z",
+                    "end": "2023-07-30T00:50:00Z",
+                    "artist": "Steve Aoki"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "a74b0c14-5923-4662-b47a-eec901dd858b",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T14:30:00Z",
+                    "artist": "Maxim Lany"
+                  },
+                  {
+                    "id": "5b2401bb-7285-4f0b-a8a4-d1a79f5b3c1d",
+                    "start": "2023-07-29T14:30:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "Ann Clue"
+                  },
+                  {
+                    "id": "674ca430-df60-4d15-960f-c15108e8d3bf",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Boris Brechja in concert"
+                  },
+                  {
+                    "id": "23bb1363-acff-48e2-9f70-14e96648b90e",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:30:00Z",
+                    "artist": "Yves Deruyter"
+                  },
+                  {
+                    "id": "871deee9-24f2-4930-a5db-867723c24e87",
+                    "start": "2023-07-29T20:30:00Z",
+                    "end": "2023-07-29T22:30:00Z",
+                    "artist": "Adam Beyer & Maceo Plex"
+                  },
+                  {
+                    "id": "6a5bbe64-7bb1-4b38-b7cd-b1cc52deffc6",
+                    "start": "2023-07-29T22:30:00Z",
+                    "end": "2023-07-30T00:30:00Z",
+                    "artist": "Reinier Zonneveld"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "b73e30db-1117-43ca-8927-fe8f91edd8be",
+                    "start": "2023-07-29T13:00:00Z",
+                    "end": "2023-07-29T14:00:00Z",
+                    "artist": "DJ Liberty"
+                  },
+                  {
+                    "id": "117727d8-700c-494d-8ae8-d003f2faeb08",
+                    "start": "2023-07-29T14:00:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Anonymize"
+                  },
+                  {
+                    "id": "272a86ee-af87-49c1-a3e7-0adf83b05fca",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "DJ Bountyhunter"
+                  },
+                  {
+                    "id": "bf38d98b-4006-47f7-a66e-700bf2fe7256",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "Franky Jones"
+                  },
+                  {
+                    "id": "3db022b3-a85e-4fbe-9c0e-f49306aa7224",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Furax"
+                  },
+                  {
+                    "id": "a29aa901-063c-4f4a-8116-11d91837230e",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Jan Vervloet"
+                  },
+                  {
+                    "id": "ef9dfa46-1752-4f88-b9ac-69d8f4759f1c",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:00:00Z",
+                    "artist": "DJ Ghost"
+                  },
+                  {
+                    "id": "23c00d16-404c-42db-856d-6d9097672158",
+                    "start": "2023-07-29T20:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Franky Kloeck"
+                  },
+                  {
+                    "id": "33636aeb-71b7-4486-91e4-deea46b75982",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:30:00Z",
+                    "artist": "Greg S"
+                  },
+                  {
+                    "id": "d8aa1046-0020-4137-a174-9b411556501d",
+                    "start": "2023-07-29T22:30:00Z",
+                    "end": "2023-07-29T23:30:00Z",
+                    "artist": "PUSH"
+                  },
+                  {
+                    "id": "1a2eaf0c-9a62-4d9a-8e28-688b7db3c7da",
+                    "start": "2023-07-29T23:30:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "Bonzai All Stars"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "cffa24ec-bf6d-40af-95f5-debcf4314166",
+                    "start": "2023-07-29T13:00:00Z",
+                    "end": "2023-07-29T14:30:00Z",
+                    "artist": "Bennie Disko"
+                  },
+                  {
+                    "id": "45a0b823-bebb-43b0-86d9-fd8d9065513c",
+                    "start": "2023-07-29T14:30:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "Aiscream"
+                  },
+                  {
+                    "id": "8154eeb9-c2b9-499f-9bb6-2ea084b30c6a",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "La June"
+                  },
+                  {
+                    "id": "f27fe2fc-d5ca-4433-aad9-043b50f18698",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T18:30:00Z",
+                    "artist": "Raywell"
+                  },
+                  {
+                    "id": "53357c18-581f-4f11-bbb4-6e7d73e98ea6",
+                    "start": "2023-07-29T18:30:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Gullie"
+                  },
+                  {
+                    "id": "f43b8dff-363d-432a-9aad-e72b3c114763",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:30:00Z",
+                    "artist": "FeestDJRuud"
+                  },
+                  {
+                    "id": "cbd1d13f-23ab-489f-96e4-50928a9c4044",
+                    "start": "2023-07-29T20:30:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Otto Wunderbar"
+                  },
+                  {
+                    "id": "2fd23b53-aa31-43bb-a615-c1ff089154b8",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:00:00Z",
+                    "artist": "Disco Danny"
+                  },
+                  {
+                    "id": "fe301f89-2b1a-43f1-8c86-333a5f4794e0",
+                    "start": "2023-07-29T22:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Irwan"
+                  },
+                  {
+                    "id": "2ed38ed5-5c85-406a-998a-3571a0e61cd6",
+                    "start": "2023-07-29T23:00:00Z",
+                    "end": "2023-07-30T00:00:00Z",
+                    "artist": "Mr Belt & Wezol"
+                  },
+                  {
+                    "id": "ba236821-9ed0-475e-9593-4b5297edcd9d",
+                    "start": "2023-07-30T00:00:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "LNY TNZ"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "374d5e0d-ebe4-4b3b-959d-196397fc0dbb",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T14:00:00Z",
+                    "artist": "Novah"
+                  },
+                  {
+                    "id": "e17dc46a-3ca5-4fc7-8144-5dfe69175e08",
+                    "start": "2023-07-29T14:00:00Z",
+                    "end": "2023-07-29T15:30:00Z",
+                    "artist": "Noneoftheabove"
+                  },
+                  {
+                    "id": "77a6456c-a52e-4a24-812d-08a1f9e428ef",
+                    "start": "2023-07-29T15:30:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "SHLØMO"
+                  },
+                  {
+                    "id": "792cc2b0-39a7-485a-ad27-7b208159f07f",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Cassie Raptor"
+                  },
+                  {
+                    "id": "30b1af9f-eedd-4a13-88cd-d8460e9863c4",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Paolo Ferrara"
+                  },
+                  {
+                    "id": "5fe0d420-f5d1-4fde-9836-62a118c6b9bd",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Lorenzo Raganzini"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "af7275a8-156a-44aa-8aff-21e11223a440",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T13:30:00Z",
+                    "artist": "Dj SOME"
+                  },
+                  {
+                    "id": "1d980dcf-ed08-4508-ab8f-b83f7b8bf8c6",
+                    "start": "2023-07-29T13:30:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Psytox"
+                  },
+                  {
+                    "id": "dcc277b2-682c-4a41-8970-aebf91484da8",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T16:30:00Z",
+                    "artist": "Alexa Borzyk"
+                  },
+                  {
+                    "id": "5f89adea-1638-43cb-83e3-867c92a7a734",
+                    "start": "2023-07-29T16:30:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Helsmoortel"
+                  },
+                  {
+                    "id": "da9ac2a6-09cc-4108-ac8a-e2e6dd34d70c",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:30:00Z",
+                    "artist": "Steya"
+                  },
+                  {
+                    "id": "577d68fc-6e2d-464b-ab01-937502408c81",
+                    "start": "2023-07-29T19:30:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "TRiXY"
+                  },
+                  {
+                    "id": "12a6f6c9-5d43-44de-a37e-8090bcc0a04d",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:00:00Z",
+                    "artist": "Remy-X Live"
+                  },
+                  {
+                    "id": "57b8177c-6e98-4389-9add-9a7055ef8305",
+                    "start": "2023-07-29T22:00:00Z",
+                    "end": "2023-07-29T23:30:00Z",
+                    "artist": "Pako Marckx"
+                  },
+                  {
+                    "id": "817c50da-9356-4deb-ab56-f2ab825002a0",
+                    "start": "2023-07-29T23:30:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "RPTR"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "373b0a50-2c6c-460b-806a-a96f128fe107",
+                    "start": "2023-07-29T13:00:00Z",
+                    "end": "2023-07-29T14:30:00Z",
+                    "artist": "Senator"
+                  },
+                  {
+                    "id": "60742a9d-f422-46b9-ae32-2774c05a78b3",
+                    "start": "2023-07-29T14:30:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "b25a66dd-7ead-4e16-9b98-72d1a28adfe1",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "Afterthought"
+                  },
+                  {
+                    "id": "1417188d-e7e2-449c-93c4-9b431b704253",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Crankdat"
+                  },
+                  {
+                    "id": "49b5583b-6684-4f4d-b4fd-5fd5522ae21d",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Sullivan King"
+                  },
+                  {
+                    "id": "6bdecf12-d079-43fa-ac98-71a099c8eb3d",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:00:00Z",
+                    "artist": "Koven"
+                  },
+                  {
+                    "id": "ee8e2fb2-ecee-48af-9810-5a5a0ef6efd5",
+                    "start": "2023-07-29T20:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "WHIPPED CREAM"
+                  },
+                  {
+                    "id": "a691c8d8-b004-4507-9ccd-18fcbdc2b2f7",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:00:00Z",
+                    "artist": "DJ Diesel"
+                  },
+                  {
+                    "id": "374dcd8c-9c1b-42ba-8301-6f8b23dd0275",
+                    "start": "2023-07-29T22:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Jessica Audiffred"
+                  },
+                  {
+                    "id": "871bba07-8ab4-441d-8e38-7e63f332aa67",
+                    "start": "2023-07-29T23:00:00Z",
+                    "end": "2023-07-30T00:00:00Z",
+                    "artist": "12th Planet"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "ca6b1ebb-db7d-4e97-9090-781db6ec1d98",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T13:30:00Z",
+                    "artist": "Luna & Lenthe"
+                  },
+                  {
+                    "id": "fc6b8950-7cc7-4522-b5c7-0a5a383b7062",
+                    "start": "2023-07-29T13:30:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Naethan"
+                  },
+                  {
+                    "id": "ebdb315b-2409-4447-a798-1e621335435c",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T16:30:00Z",
+                    "artist": "Florentin"
+                  },
+                  {
+                    "id": "c8ec2398-7a14-48bd-bdce-e82c27734a7d",
+                    "start": "2023-07-29T16:30:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Khainz"
+                  },
+                  {
+                    "id": "ba7b99ac-00f9-4145-bd1a-53ae43c5fab2",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:30:00Z",
+                    "artist": "Goom Gum"
+                  },
+                  {
+                    "id": "e1c376ac-304b-42b9-940a-5ec07ec79906",
+                    "start": "2023-07-29T19:30:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Undercatt"
+                  },
+                  {
+                    "id": "da427142-7e4d-456b-97cc-c7efd97714b3",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T23:30:00Z",
+                    "artist": "GLOWAL"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "9d9a0eaf-dc9b-46ab-8c09-c4e8a340b7d0",
+                    "start": "2023-07-29T12:30:00Z",
+                    "end": "2023-07-29T16:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "2c0138e6-975b-4b50-a71c-0967563a58c3",
+                    "start": "2023-07-29T16:30:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Rio Tashan"
+                  },
+                  {
+                    "id": "bbed20b8-3ee6-4b13-b7b8-d1f53118f3f8",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:30:00Z",
+                    "artist": "Mambo Brothers"
+                  },
+                  {
+                    "id": "79a19444-a533-4c41-8530-957af8b8f8a0",
+                    "start": "2023-07-29T19:30:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Ferreck Dawn"
+                  },
+                  {
+                    "id": "ce772c75-25f7-41fb-89b5-34ce02f4bdef",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:30:00Z",
+                    "artist": "SYREETA"
+                  },
+                  {
+                    "id": "692fae69-6c31-443c-ad82-786302110775",
+                    "start": "2023-07-29T22:30:00Z",
+                    "end": "2023-07-29T23:50:00Z",
+                    "artist": "Gorgon City"
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "c3edf335-e2cf-4acb-8371-98260cbc202e",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T14:00:00Z",
+                    "artist": "Heckman"
+                  },
+                  {
+                    "id": "4ec56d8b-5df0-4335-ac73-5fde7f1bcbfc",
+                    "start": "2023-07-29T14:00:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "AM.I"
+                  },
+                  {
+                    "id": "44fb19ae-d6f8-4e19-b1e7-6cb38053e67e",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:30:00Z",
+                    "artist": "Symphony of Unity"
+                  },
+                  {
+                    "id": "3299b8ea-729f-4531-984d-8270967d3e24",
+                    "start": "2023-07-29T17:30:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Oscar L"
+                  },
+                  {
+                    "id": "de3d911b-a3cc-466e-937f-2fb18268bed8",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Alex Stein"
+                  },
+                  {
+                    "id": "4d3f2aaf-101f-4b81-bb5e-bad08f66fa3f",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Victor Ruiz"
+                  },
+                  {
+                    "id": "84234836-81c6-4a62-9dd8-389ca08ee5ab",
+                    "start": "2023-07-29T23:00:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "Enrico Sangiuliano"
+                  }
+                ]
+              },
+              {
+                "name": "Core",
+                "events": [
+                  {
+                    "id": "46bdb748-0ad5-4bea-b24d-1a2014f69858",
+                    "start": "2023-07-29T12:30:00Z",
+                    "end": "2023-07-29T14:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "45e14903-2788-4dd8-920f-83fa9ad4bcf8",
+                    "start": "2023-07-29T14:00:00Z",
+                    "end": "2023-07-29T15:30:00Z",
+                    "artist": "Mosley Jr"
+                  },
+                  {
+                    "id": "84e2b13e-bc4d-4e1a-95cc-a89ac155636a",
+                    "start": "2023-07-29T15:30:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "Capoon"
+                  },
+                  {
+                    "id": "f637e460-0688-4516-9913-60e8812763aa",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Major League DJz"
+                  },
+                  {
+                    "id": "873e841c-f99a-411b-9e1f-eda124cec4b9",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Holographic"
+                  },
+                  {
+                    "id": "79557719-6b27-41a9-b1fa-dfafc91ce7ea",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Honey Dijon"
+                  },
+                  {
+                    "id": "f5bcaf7f-3dfa-422b-9cf7-a331ec8cd65c",
+                    "start": "2023-07-29T23:00:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "Floorplan"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "557e44c7-654c-4d8f-a55f-1446f13e0454",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T13:30:00Z",
+                    "artist": "Dylan Guaetta"
+                  },
+                  {
+                    "id": "4a1cc797-f168-46c4-9dae-81119da1c039",
+                    "start": "2023-07-29T13:30:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Laura van Dam"
+                  },
+                  {
+                    "id": "97d87244-fe74-4f86-8876-677e80f7a091",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "Amy Wiles b2b Leena Punks"
+                  },
+                  {
+                    "id": "27a0f80d-26dc-4f07-bff7-52f995141c25",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "Sunny Lax"
+                  },
+                  {
+                    "id": "b6d67043-1efb-492b-b77b-abb272401f9a",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Anamē"
+                  },
+                  {
+                    "id": "17bfcb84-4319-47ea-8516-a8595388ba30",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Alpha9"
+                  },
+                  {
+                    "id": "59dcbb9b-7d66-4391-bd53-f06df37c0f09",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:00:00Z",
+                    "artist": "Andrew Bayer"
+                  },
+                  {
+                    "id": "fa291c6b-fee1-4ea9-8196-ba30e7c8443f",
+                    "start": "2023-07-29T20:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Ilan Bluestone"
+                  },
+                  {
+                    "id": "a2579544-60d7-4152-91ad-ebafee3dca22",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:00:00Z",
+                    "artist": "Mat Zo"
+                  },
+                  {
+                    "id": "dff6d2c2-2174-4712-9f72-c308606f8619",
+                    "start": "2023-07-29T22:00:00Z",
+                    "end": "2023-07-30T00:00:00Z",
+                    "artist": "Above & Beyond"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "8f41dd4c-163a-4335-b923-817814d94c9d",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T13:00:00Z",
+                    "artist": "Reygel"
+                  },
+                  {
+                    "id": "c3720a01-2857-4b77-beff-b89ff6f795e8",
+                    "start": "2023-07-29T13:00:00Z",
+                    "end": "2023-07-29T14:00:00Z",
+                    "artist": "Arodes"
+                  },
+                  {
+                    "id": "e7c5cb0f-7df9-4450-a4ae-d5a727bf5c8d",
+                    "start": "2023-07-29T14:00:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Subshift"
+                  },
+                  {
+                    "id": "b523bd5e-0ec4-427a-8692-95296440cfa0",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T16:00:00Z",
+                    "artist": "Toolate Groove"
+                  },
+                  {
+                    "id": "3f4b51e2-edb9-414e-ae18-013aaa13c91b",
+                    "start": "2023-07-29T16:00:00Z",
+                    "end": "2023-07-29T17:00:00Z",
+                    "artist": "Throttle"
+                  },
+                  {
+                    "id": "84d16d00-e210-4c33-81d3-2bd5444552ce",
+                    "start": "2023-07-29T17:00:00Z",
+                    "end": "2023-07-29T18:00:00Z",
+                    "artist": "Pretty Pink"
+                  },
+                  {
+                    "id": "413d215f-1c82-448f-a4a0-2e54a1a072c5",
+                    "start": "2023-07-29T18:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Matroda"
+                  },
+                  {
+                    "id": "ffc6cada-a6f0-40f9-9643-29de8cf38b19",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:00:00Z",
+                    "artist": "Tony Romera"
+                  },
+                  {
+                    "id": "babddc0b-6dde-43f4-aa2a-c681ab17c9e8",
+                    "start": "2023-07-29T20:00:00Z",
+                    "end": "2023-07-29T21:00:00Z",
+                    "artist": "Robin Schulz"
+                  },
+                  {
+                    "id": "12ef5e61-6d6b-44e8-a537-174dd3bd73d0",
+                    "start": "2023-07-29T21:00:00Z",
+                    "end": "2023-07-29T22:00:00Z",
+                    "artist": "Kungs"
+                  },
+                  {
+                    "id": "7c6b5f67-9370-4865-92d2-7ac39d364d58",
+                    "start": "2023-07-29T22:00:00Z",
+                    "end": "2023-07-29T23:00:00Z",
+                    "artist": "Lost Frequencies"
+                  },
+                  {
+                    "id": "782bbd77-ad3d-4f2c-8584-5dfbd9362dea",
+                    "start": "2023-07-29T23:00:00Z",
+                    "end": "2023-07-30T00:00:00Z",
+                    "artist": "Tchami"
+                  },
+                  {
+                    "id": "63e974fc-553b-4882-b72e-3d102ac17ff8",
+                    "start": "2023-07-30T00:00:00Z",
+                    "end": "2023-07-30T01:00:00Z",
+                    "artist": "Netsky"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "3dd3e70c-e64a-4795-a6f4-47f18da18ca9",
+                    "start": "2023-07-29T12:00:00Z",
+                    "end": "2023-07-29T15:00:00Z",
+                    "artist": "Rino"
+                  },
+                  {
+                    "id": "ac1d58b6-8e2d-4bda-825d-d285cae5df04",
+                    "start": "2023-07-29T15:00:00Z",
+                    "end": "2023-07-29T19:00:00Z",
+                    "artist": "Milano"
+                  },
+                  {
+                    "id": "7888045c-cbc9-4646-9b02-87986db1a42f",
+                    "start": "2023-07-29T19:00:00Z",
+                    "end": "2023-07-29T20:00:00Z",
+                    "artist": "Schorre cheff & MC Vals"
+                  },
+                  {
+                    "id": "2bb74f9a-381a-4ae1-b23d-ac6e5fa3050a",
+                    "start": "2023-07-29T20:00:00Z",
+                    "end": "2023-07-30T00:00:00Z",
+                    "artist": "Laurent Wery"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "date": "2023-07-30",
+            "name": "Sunday",
+            "locations": [
+              {
+                "name": "Mainstage",
+                "events": [
+                  {
+                    "id": "a8249a62-6626-4b35-b449-5c8fa084aa52",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T15:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "a1759314-f0d3-4f80-b487-5ce59f26b6c8",
+                    "start": "2023-07-30T15:30:00Z",
+                    "end": "2023-07-30T16:30:00Z",
+                    "artist": "Andromedik"
+                  },
+                  {
+                    "id": "a5aebd82-198b-4971-b968-a9c4f7d67adb",
+                    "start": "2023-07-30T16:30:00Z",
+                    "end": "2023-07-30T17:30:00Z",
+                    "artist": "Malaa"
+                  },
+                  {
+                    "id": "046514f8-6fed-4bdc-99ca-bb0b7869b09c",
+                    "start": "2023-07-30T17:30:00Z",
+                    "end": "2023-07-30T18:30:00Z",
+                    "artist": "Indira Paganotto"
+                  },
+                  {
+                    "id": "e7af0ac0-e92b-432c-b605-fbe5d1ed9b05",
+                    "start": "2023-07-30T18:35:00Z",
+                    "end": "2023-07-30T19:35:00Z",
+                    "artist": "Otto Knows"
+                  },
+                  {
+                    "id": "c185047d-329f-4ad0-89a1-a24697cf9740",
+                    "start": "2023-07-30T19:40:00Z",
+                    "end": "2023-07-30T20:40:00Z",
+                    "artist": "R3hab & W&W"
+                  },
+                  {
+                    "id": "a82f8764-cc04-4af8-b9b1-f0c818d04a81",
+                    "start": "2023-07-30T20:45:00Z",
+                    "end": "2023-07-30T21:45:00Z",
+                    "artist": "Alesso"
+                  },
+                  {
+                    "id": "249e228c-dbb6-4b2d-837a-caa40181d253",
+                    "start": "2023-07-30T21:50:00Z",
+                    "end": "2023-07-30T22:50:00Z",
+                    "artist": "Paul Kalkbrenner"
+                  },
+                  {
+                    "id": "85e7cd88-067c-444d-beec-5bd1fe2de32e",
+                    "start": "2023-07-30T22:55:00Z",
+                    "end": "2023-07-30T23:55:00Z",
+                    "artist": "Martin Garrix"
+                  }
+                ]
+              },
+              {
+                "name": "Freedom",
+                "events": [
+                  {
+                    "id": "7ad5326c-4838-47a5-bb45-4d7b4b722f39",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T13:30:00Z",
+                    "artist": "Dave Lambert"
+                  },
+                  {
+                    "id": "6296c6d1-1e28-46ff-b7fd-6f4d9893c31a",
+                    "start": "2023-07-30T13:30:00Z",
+                    "end": "2023-07-30T14:30:00Z",
+                    "artist": "YOUNOTUS"
+                  },
+                  {
+                    "id": "4b65bd3c-0d06-410e-8f81-67b497a36c39",
+                    "start": "2023-07-30T14:30:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "GORDO"
+                  },
+                  {
+                    "id": "35b7cdc6-96e3-44e7-9243-75254d5fe5cf",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:30:00Z",
+                    "artist": "Don Diablo"
+                  },
+                  {
+                    "id": "acd3d10e-cfff-4215-9196-dacc83cb0f71",
+                    "start": "2023-07-30T17:30:00Z",
+                    "end": "2023-07-30T18:30:00Z",
+                    "artist": "Sunnery James & Ryan Marciano"
+                  },
+                  {
+                    "id": "a269c5e0-b4ef-4e9b-b016-24c9d13142a8",
+                    "start": "2023-07-30T18:30:00Z",
+                    "end": "2023-07-30T20:30:00Z",
+                    "artist": "Steve Angello presents SIZE XX"
+                  },
+                  {
+                    "id": "29ac640a-f93c-46d4-a422-af789ea82d30",
+                    "start": "2023-07-30T20:30:00Z",
+                    "end": "2023-07-30T23:30:00Z",
+                    "artist": "Armin van Buuren"
+                  }
+                ]
+              },
+              {
+                "name": "The Rose Garden",
+                "events": [
+                  {
+                    "id": "1a5d3e5c-b0c3-4f1f-b13d-12af310bc21c",
+                    "start": "2023-07-30T13:00:00Z",
+                    "end": "2023-07-30T14:30:00Z",
+                    "artist": "X-tof"
+                  },
+                  {
+                    "id": "1d8a852d-6711-4154-815a-5e4c8a1b9eb7",
+                    "start": "2023-07-30T14:30:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Yamo"
+                  },
+                  {
+                    "id": "cd503d06-ed30-4875-9d13-a43320c62994",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "Romeo Blanco"
+                  },
+                  {
+                    "id": "8529f41b-0081-4947-8622-fc3b86a492f8",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "AN21"
+                  },
+                  {
+                    "id": "bce81fae-fc65-49ae-a3c1-839a9290adc0",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Third Party"
+                  },
+                  {
+                    "id": "f3342e1b-24b2-4ab6-9f79-102f700e4927",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Dannic"
+                  },
+                  {
+                    "id": "bd5d8bc9-c5d7-4d26-8ce2-503dedfc9731",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "Regi"
+                  },
+                  {
+                    "id": "11a27955-a828-40a4-88f1-22670bfd5b36",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "DJs FROM MARS"
+                  },
+                  {
+                    "id": "9076b2aa-56f0-4b93-ab1d-d963a34198df",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "Sidney Samson"
+                  },
+                  {
+                    "id": "fa9a31ee-b589-4e72-bfc1-0514c316c236",
+                    "start": "2023-07-30T23:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Bassjackers"
+                  }
+                ]
+              },
+              {
+                "name": "Elixir",
+                "events": [
+                  {
+                    "id": "5ec95f02-b7f7-4190-838e-28f85f2de4b9",
+                    "start": "2023-07-30T13:00:00Z",
+                    "end": "2023-07-30T14:30:00Z",
+                    "artist": "El Bacha ft Sam Renascent"
+                  },
+                  {
+                    "id": "962ed3dc-b20e-4f19-bbaf-23732e3506d8",
+                    "start": "2023-07-30T14:30:00Z",
+                    "end": "2023-07-30T15:30:00Z",
+                    "artist": "Bart & Baker"
+                  },
+                  {
+                    "id": "7af057e5-7df6-4a67-81d3-0ae8876c5760",
+                    "start": "2023-07-30T15:30:00Z",
+                    "end": "2023-07-30T16:30:00Z",
+                    "artist": "Nicki Sanchez"
+                  },
+                  {
+                    "id": "c3a78f55-016e-40dc-aca1-5eb8140caa43",
+                    "start": "2023-07-30T16:30:00Z",
+                    "end": "2023-07-30T17:30:00Z",
+                    "artist": "Daddy K"
+                  },
+                  {
+                    "id": "cce2a6ff-768c-4899-b2eb-88b28fe9edfd",
+                    "start": "2023-07-30T17:30:00Z",
+                    "end": "2023-07-30T18:30:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "d6c2a946-bd28-4c01-99cc-e04fe6c8868b",
+                    "start": "2023-07-30T18:30:00Z",
+                    "end": "2023-07-30T19:30:00Z",
+                    "artist": "Crack-T"
+                  },
+                  {
+                    "id": "1f55468b-cc76-4f53-8a47-9d5800696c9f",
+                    "start": "2023-07-30T19:30:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "d5da6e53-ec77-435d-a6d7-7b58b361135d",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:30:00Z",
+                    "artist": "Lady S"
+                  },
+                  {
+                    "id": "3a26a978-8acd-48a2-b6ce-6a508455911a",
+                    "start": "2023-07-30T22:30:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "The Knightriders"
+                  }
+                ]
+              },
+              {
+                "name": "Cage",
+                "events": [
+                  {
+                    "id": "3de82140-150c-442e-a549-cbfab137a0b9",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T15:00:00Z",
+                    "artist": "Captain Bass"
+                  },
+                  {
+                    "id": "7f7ca892-b30d-40ad-9883-8959f7a5ad07",
+                    "start": "2023-07-30T15:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Natty Lou"
+                  },
+                  {
+                    "id": "9aeda075-88ee-4956-a6ab-415fbeb548e5",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "Cartoon"
+                  },
+                  {
+                    "id": "bf0c8e41-f233-495d-9336-aafb82f243c2",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Charlie Tee"
+                  },
+                  {
+                    "id": "e1a7fba8-558f-4123-8a3d-c9f385260931",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "EJ Kitto"
+                  },
+                  {
+                    "id": "6b098277-c96d-4fb0-8e83-ca9af4c73557",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Mozey"
+                  },
+                  {
+                    "id": "ae8d1ad0-0498-4819-af90-21f821730247",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "Jamezy"
+                  },
+                  {
+                    "id": "26467d4c-ae48-44a9-842e-7fc06c098f3c",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Alcemist"
+                  },
+                  {
+                    "id": "eaecc9ea-98d7-426a-9adb-eef275eb11ef",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "DJ Marky"
+                  }
+                ]
+              },
+              {
+                "name": "The Rave Cave",
+                "events": [
+                  {
+                    "id": "60b43afa-48cd-42d4-9b55-4e798e4f61ea",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T14:00:00Z",
+                    "artist": "Fuga"
+                  },
+                  {
+                    "id": "9748106e-2e25-41da-ba5a-fc28845e01b4",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Wannes Lenaers"
+                  },
+                  {
+                    "id": "8dad4da6-9ff3-4663-ba07-673beb7139d0",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Ampe"
+                  },
+                  {
+                    "id": "414126c5-1a06-40b4-b0df-b32c599333a3",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Keyser"
+                  },
+                  {
+                    "id": "2758b75f-311b-4ec3-b68c-6de79134fc26",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Oton"
+                  },
+                  {
+                    "id": "fb5244b1-97d9-4c9d-a0d8-c6ca0518a3c6",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "Brennt und Klakmatrak"
+                  },
+                  {
+                    "id": "65fe789b-9f31-46f3-875a-ec4aede2b3e6",
+                    "start": "2023-07-30T23:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Wørtaal"
+                  }
+                ]
+              },
+              {
+                "name": "Youphoria",
+                "events": [
+                  {
+                    "id": "dbad8bd6-7e0c-4dd3-a2c0-43976d94a2d9",
+                    "start": "2023-07-30T13:00:00Z",
+                    "end": "2023-07-30T14:00:00Z",
+                    "artist": "BassBrain"
+                  },
+                  {
+                    "id": "1fef3aaa-078e-4d16-abc6-25100a2241fb",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T15:00:00Z",
+                    "artist": "Refuzion"
+                  },
+                  {
+                    "id": "bf881831-7ee4-41c4-affc-394540765805",
+                    "start": "2023-07-30T15:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Sound Rush"
+                  },
+                  {
+                    "id": "1a079dfd-df10-49b0-a18f-3b5e06064a11",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "MANDY"
+                  },
+                  {
+                    "id": "50cdfc47-4018-4b5e-9803-c145504751af",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Coone"
+                  },
+                  {
+                    "id": "97d0f35b-4b7f-487d-bd10-f1efad5dac0a",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Da Tweekaz"
+                  },
+                  {
+                    "id": "87d93c56-c063-4b72-93e3-5d9abcb1fcda",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Darren Styles"
+                  },
+                  {
+                    "id": "c862b612-054e-465a-a38b-0c006a1dc817",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "Hard Driver"
+                  },
+                  {
+                    "id": "80511de7-1757-4740-980a-80690b6f9822",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Rebelion"
+                  },
+                  {
+                    "id": "1bf1faae-4dcc-43b3-a383-860046af1bb3",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "Mark With a K & Mc Chucky"
+                  },
+                  {
+                    "id": "d4371a1a-1640-4f3c-8bf7-6215c7510d78",
+                    "start": "2023-07-30T23:00:00Z",
+                    "end": "2023-07-30T23:50:00Z",
+                    "artist": "Killshot"
+                  }
+                ]
+              },
+              {
+                "name": "Terra Solis",
+                "events": [
+                  {
+                    "id": "23dbc04a-6e07-4d2e-8c00-8637b02e6c5c",
+                    "start": "2023-07-30T12:30:00Z",
+                    "end": "2023-07-30T13:30:00Z",
+                    "artist": "Elenore"
+                  },
+                  {
+                    "id": "bee2d12f-cc28-42eb-8cbd-659d8e87085e",
+                    "start": "2023-07-30T13:30:00Z",
+                    "end": "2023-07-30T15:00:00Z",
+                    "artist": "séa"
+                  },
+                  {
+                    "id": "b69bde73-fd11-4ec4-809b-8f4556eb48b5",
+                    "start": "2023-07-30T15:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "PBH & Jack"
+                  },
+                  {
+                    "id": "ab39b9fe-30a8-4cba-b9da-c146993332fa",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:30:00Z",
+                    "artist": "DJ Licious"
+                  },
+                  {
+                    "id": "7f72b80b-0452-4401-a3b1-e951f0fbd389",
+                    "start": "2023-07-30T17:30:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "ODEN & FATZO"
+                  },
+                  {
+                    "id": "deea5cda-ac3f-4644-a2ea-a2f742dab067",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:30:00Z",
+                    "artist": "Biscits"
+                  },
+                  {
+                    "id": "bf85ab3c-beaa-49c9-beb0-e47dd3072a3f",
+                    "start": "2023-07-30T20:30:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Vato Gonzalez"
+                  },
+                  {
+                    "id": "8b8d55e1-b7f0-403f-b405-528b56b7a92b",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:30:00Z",
+                    "artist": "Delafino B2B DJ Gee"
+                  }
+                ]
+              },
+              {
+                "name": "Rise",
+                "events": [
+                  {
+                    "id": "1049edae-534c-470c-b800-fd64ee75d07d",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T13:00:00Z",
+                    "artist": "To be announced"
+                  },
+                  {
+                    "id": "b266151f-a135-45c2-a031-0da36b6da8ef",
+                    "start": "2023-07-30T13:00:00Z",
+                    "end": "2023-07-30T14:00:00Z",
+                    "artist": "Odssey"
+                  },
+                  {
+                    "id": "51abface-b144-4c3d-8420-3573693a0ea3",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T15:00:00Z",
+                    "artist": "Brian Cross & Abel Ramos"
+                  },
+                  {
+                    "id": "559f15c8-998d-4aef-86ac-20f826cf23d8",
+                    "start": "2023-07-30T15:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Bhaskar"
+                  },
+                  {
+                    "id": "00f8d32d-f571-4004-a425-fe13d44ff4ce",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "Header"
+                  },
+                  {
+                    "id": "2ca305fc-c743-444f-9874-88f5a22cb077",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Justus"
+                  },
+                  {
+                    "id": "c8371344-a61f-402c-a0d8-21c5ac9b27ef",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Kura"
+                  },
+                  {
+                    "id": "1a815476-93ad-4882-a89a-1c71a4145ef6",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Yves V"
+                  },
+                  {
+                    "id": "2568ca00-d734-4eb8-a522-302b7d32b9a9",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "Sevek"
+                  },
+                  {
+                    "id": "4286a1fd-b0c8-4ab4-9ed1-55b78b47e58b",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Glockenbach"
+                  },
+                  {
+                    "id": "5d9468c4-4ae1-4961-b73e-88fa84ae891f",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "Kris Kross Amsterdam"
+                  },
+                  {
+                    "id": "ecf05a68-54b9-423b-bef1-4e9e76a54280",
+                    "start": "2023-07-30T23:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Mariana Bo"
+                  }
+                ]
+              },
+              {
+                "name": "Atmosphere",
+                "events": [
+                  {
+                    "id": "f400cd19-ecf0-4863-bd7f-6b560e46da43",
+                    "start": "2023-07-30T12:30:00Z",
+                    "end": "2023-07-30T14:30:00Z",
+                    "artist": "Herton"
+                  },
+                  {
+                    "id": "c575cae7-987d-4334-b572-6371d7753c23",
+                    "start": "2023-07-30T14:30:00Z",
+                    "end": "2023-07-30T15:30:00Z",
+                    "artist": "Ahl Iver Live"
+                  },
+                  {
+                    "id": "64bfa882-3023-4bce-bbbe-036537f1c22e",
+                    "start": "2023-07-30T15:30:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "Farrago"
+                  },
+                  {
+                    "id": "b8d698fb-c0c4-4974-bed3-4b9a9b71a890",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:30:00Z",
+                    "artist": "Klangkuenstler"
+                  },
+                  {
+                    "id": "1b1e2026-8e31-45cb-9696-195ae425a47e",
+                    "start": "2023-07-30T18:30:00Z",
+                    "end": "2023-07-30T20:30:00Z",
+                    "artist": "Kobosil"
+                  },
+                  {
+                    "id": "a2f55699-ef0f-46e5-b0e3-b90fd3644703",
+                    "start": "2023-07-30T20:30:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "ANNA"
+                  },
+                  {
+                    "id": "d290d288-b6a1-4fa5-9030-414d6f95b7e3",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Amelie Lens"
+                  }
+                ]
+              },
+              {
+                "name": "Core",
+                "events": [
+                  {
+                    "id": "438bb6fb-8b11-403a-80f1-c5ffe9595689",
+                    "start": "2023-07-30T12:30:00Z",
+                    "end": "2023-07-30T14:30:00Z",
+                    "artist": "Lilihell"
+                  },
+                  {
+                    "id": "608577de-4340-46eb-b7c9-9d659338448d",
+                    "start": "2023-07-30T14:30:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "DC Salas"
+                  },
+                  {
+                    "id": "e1953aea-8828-41aa-861e-be10a2fa7a4e",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Carlita"
+                  },
+                  {
+                    "id": "824f1c3f-cdbd-4f59-8484-5ff94763e492",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "DJ Seinfeld"
+                  },
+                  {
+                    "id": "c32fdd44-e949-4e0a-8888-132bbec69b24",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "DJ Tennis"
+                  },
+                  {
+                    "id": "3fa57a14-ec6d-4a6b-84c7-a578887dbfe3",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Âme"
+                  }
+                ]
+              },
+              {
+                "name": "Crystal Garden",
+                "events": [
+                  {
+                    "id": "a8200419-a46e-402d-9ac5-d78f272ab8d5",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T14:00:00Z",
+                    "artist": "Emjie"
+                  },
+                  {
+                    "id": "77c5455b-f8c7-47a9-a9c2-c99800507a88",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Hollt"
+                  },
+                  {
+                    "id": "2effaa5b-33f4-4acb-a864-59b4b60a2c69",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:30:00Z",
+                    "artist": "Massano"
+                  },
+                  {
+                    "id": "b16c3430-9d4c-46af-9054-4a249b98591f",
+                    "start": "2023-07-30T17:30:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Like Mike"
+                  },
+                  {
+                    "id": "1dd381e3-5a91-4435-bc0f-dfbb97272330",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:30:00Z",
+                    "artist": "Kevin De Vries"
+                  },
+                  {
+                    "id": "7205e3cf-5034-4a02-a449-60f4b68b9bd4",
+                    "start": "2023-07-30T20:30:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Adriatique"
+                  },
+                  {
+                    "id": "bef3732c-2ff5-49cd-9acd-1d8becf59216",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:30:00Z",
+                    "artist": "Stephan Bodzin"
+                  }
+                ]
+              },
+              {
+                "name": "The Library",
+                "events": [
+                  {
+                    "id": "7aff67d0-f79c-44ac-b9b0-8185b1dc8b45",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T13:00:00Z",
+                    "artist": "Suark"
+                  },
+                  {
+                    "id": "19ae78bc-701d-4170-a477-e2c14de876fd",
+                    "start": "2023-07-30T13:00:00Z",
+                    "end": "2023-07-30T14:00:00Z",
+                    "artist": "Mr. Pig & Le Twins"
+                  },
+                  {
+                    "id": "d4f5ea28-f0b5-464e-9bb5-bafc0b593d52",
+                    "start": "2023-07-30T14:00:00Z",
+                    "end": "2023-07-30T15:00:00Z",
+                    "artist": "Sevenn"
+                  },
+                  {
+                    "id": "9a076903-d0c9-44c4-b2c7-241654a0c1ab",
+                    "start": "2023-07-30T15:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Tungevaag"
+                  },
+                  {
+                    "id": "13ea0b21-af06-40eb-9b41-f12b9da7afa7",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T17:00:00Z",
+                    "artist": "Viktor & Kobe"
+                  },
+                  {
+                    "id": "7a135e1b-b342-4e55-b028-79cee3ba90eb",
+                    "start": "2023-07-30T17:00:00Z",
+                    "end": "2023-07-30T18:00:00Z",
+                    "artist": "Ben Nicky"
+                  },
+                  {
+                    "id": "e9b7863d-3e04-4b87-86b5-0c402e3b3e29",
+                    "start": "2023-07-30T18:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Gabry Ponte"
+                  },
+                  {
+                    "id": "e48c547e-1641-41db-98e2-5e5b584181bf",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Paris Hilton"
+                  },
+                  {
+                    "id": "6491daa9-9357-4e29-8948-7c560f122b5d",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-30T21:00:00Z",
+                    "artist": "MATTN"
+                  },
+                  {
+                    "id": "eb2a19dd-e672-4814-a424-c4fbc2dbffbd",
+                    "start": "2023-07-30T21:00:00Z",
+                    "end": "2023-07-30T22:00:00Z",
+                    "artist": "Afrojack"
+                  },
+                  {
+                    "id": "ddc2c726-3801-4071-ab87-68b4f5a1f81b",
+                    "start": "2023-07-30T22:00:00Z",
+                    "end": "2023-07-30T23:00:00Z",
+                    "artist": "Dimitri Vegas & Like Mike vs Timmy Trumpet"
+                  },
+                  {
+                    "id": "f1504538-33bd-48e0-b3af-254f85b716ec",
+                    "start": "2023-07-30T23:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Brennan Heart"
+                  }
+                ]
+              },
+              {
+                "name": "Moosebar",
+                "events": [
+                  {
+                    "id": "f7bfad3b-ca9c-46ad-b5e4-1e86431f3928",
+                    "start": "2023-07-30T12:00:00Z",
+                    "end": "2023-07-30T16:00:00Z",
+                    "artist": "Frank Mellemans"
+                  },
+                  {
+                    "id": "95900941-7cee-4c79-a2a7-68385cc7a0e8",
+                    "start": "2023-07-30T16:00:00Z",
+                    "end": "2023-07-30T19:00:00Z",
+                    "artist": "Les Mecs Eclectics"
+                  },
+                  {
+                    "id": "2f22c0ed-2492-42d9-a990-3fd42af20578",
+                    "start": "2023-07-30T19:00:00Z",
+                    "end": "2023-07-30T20:00:00Z",
+                    "artist": "Dorothee Vegas & Like Maarten"
+                  },
+                  {
+                    "id": "6e5c886f-1b28-436c-9d7a-5f3a5bd35343",
+                    "start": "2023-07-30T20:00:00Z",
+                    "end": "2023-07-31T00:00:00Z",
+                    "artist": "Kurt Verheyen"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
