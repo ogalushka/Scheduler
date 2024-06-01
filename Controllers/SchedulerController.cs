@@ -1,11 +1,14 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Facebook;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Scheduler.Db;
 using Scheduler.Db.Models;
 using Scheduler.Dtos;
+using Scheduler.Service;
 using Scheduler.Tracking;
 using System.Security.Claims;
 
@@ -15,29 +18,72 @@ namespace Scheduler.Controllers;
 [Route("/")]
 public class SchedulerController : ControllerBase
 {
-    private readonly IRepository<string, ScheduleEntity> scheduleRepository;
+    private readonly IRepository<string, ScheduleHistory> scheduleHistoryRepository;
     private readonly IRepository<Guid, UserEntity> userRepository;
+    private readonly AuthService authService;
     private readonly TrackingClient tracking;
 
     public SchedulerController(
         IRepository<string, ScheduleEntity> scheduleRepository,
         IRepository<Guid, UserEntity> userRepository,
-        TrackingClient tracking)
+        TrackingClient tracking,
+        IRepository<string, ScheduleHistory> scheduleHistoryRepository,
+        AuthService authService)
     {
-        this.scheduleRepository = scheduleRepository;
+        this.scheduleHistoryRepository = scheduleHistoryRepository;
         this.userRepository = userRepository;
         this.tracking = tracking;
+        this.authService = authService;
+    }
+
+    [HttpGet]
+    [Route("google-login")]
+    public IActionResult GoogleLogin(string redirect = "/")
+    {
+        var properties = new AuthenticationProperties { RedirectUri = redirect };
+        return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+    }
+
+    [HttpGet]
+    [Route("facebook-login")]
+    public IActionResult FacebookLogin(string redirect = "/")
+    {
+        var properties = new AuthenticationProperties { RedirectUri = redirect };
+        return Challenge(properties, FacebookDefaults.AuthenticationScheme);
+    }
+
+    [HttpGet]
+    [Route("facebook-delete")]
+    public IActionResult FacebookLogin()
+    {
+        return Ok();
+    }
+
+    [HttpGet]
+    [Route("principal-me")]
+    public IActionResult CheckLoggedInUser()
+    {
+        var claims = HttpContext.User.Claims.Select(claim => new
+            {
+                claim.Issuer,
+                claim.OriginalIssuer,
+                claim.Type,
+                claim.Value
+            });
+
+        return Ok(claims);
     }
 
     [HttpGet]
     [Route("/schedule")]
     public async Task<ActionResult<ScheduleDto>> GetSchedule()
     {
-        var schedule = await scheduleRepository.Get("Tomorrow");
+        var scheduleHistory = await scheduleHistoryRepository.Get("Tomorrow");
+        var schedule = scheduleHistory.Schedules.Last();
         var attendance = new List<Guid>();
         IReadOnlyCollection<UserEntity> following = Array.Empty<UserEntity>();
 
-        var user = await GetLoggedInUser();
+        var user = await authService.GetLoggedInUser();
         if (user.SavedUser)
         {
             attendance = user.Attending;
@@ -53,7 +99,8 @@ public class SchedulerController : ControllerBase
     [Route("/schedule/{publicId}")]
     public async Task<ActionResult<ScheduleDto>> GetSchedule(string publicId)
     {
-        var schedule = await scheduleRepository.Get("Tomorrow");
+        var scheduleHistory = await scheduleHistoryRepository.Get("Tomorrow");
+        var schedule = scheduleHistory.Schedules.Last();
         var otherUser = await userRepository.Get(e => e.PublicId == Guid.Parse(publicId));
         if (otherUser == null)
         {
@@ -61,7 +108,7 @@ public class SchedulerController : ControllerBase
         }
         var attendance = otherUser.Attending;
 
-        var user = await GetLoggedInUser();
+        var user = await authService.GetLoggedInUser();
         var following = new UserEntity[] { user };
         var result = BuildScheduleResponce(schedule, user, otherUser, attendance, following);
         _ = tracking.Track(EventName.OtherScheduleViewed, user.Id, new Dictionary<string, object> { { TrackingClient.OtherUserId, otherUser.Id } });
@@ -70,24 +117,7 @@ public class SchedulerController : ControllerBase
 
     private ScheduleDto BuildScheduleResponce(ScheduleEntity schedule, UserEntity me, UserEntity owner, IReadOnlyCollection<Guid> attendance, IReadOnlyCollection<UserEntity> following)
     {
-        var weeks = schedule.Weeks.Select((w, i) =>
-            new Week
-            {
-                WeekName = w.Name,
-                WeekNumber = i,
-                Days = w.Days.Select(d =>
-                    new Day
-                    {
-                        Date = d.Date,
-                        WeekDay = d.Name,
-                        Stages = d.Locations.Select(l => new Location
-                        {
-                            Stage = l.Name,
-                            Artists = l.Events.Select(e => BuildEvent(e, attendance, following)).ToArray()
-                        }).ToArray()
-                    }).ToArray()
-            }).ToArray();
-
+        var events = schedule.Events.Select((e, i) => BuildEvent(e, attendance, following)).ToArray();
         var meDto = me.SavedUser ? new Attendee { Id = me.PublicId, Name = me.Name, Following = me.Following } : null;
         var ownerDto = owner.SavedUser ? new Attendee { Id = owner.PublicId, Name = owner.Name } : null;
 
@@ -95,7 +125,7 @@ public class SchedulerController : ControllerBase
         {
             Me = meDto,
             Owner = ownerDto,
-            Schedule = weeks
+            Events = events
         };
     }
 
@@ -107,6 +137,10 @@ public class SchedulerController : ControllerBase
             TimeStart = e.Start,
             TimeEnd = e.End,
             Artist = e.Artist,
+            Weekend = e.Weekend,
+            Date = e.Date,
+            Day = e.Day,
+            Location = e.Location,
 
             Attending = attendance.Contains(e.Id),
             Attendees = followingUsers
@@ -123,7 +157,7 @@ public class SchedulerController : ControllerBase
     [Route("/attend")]
     public async Task<ActionResult> ChangeStatus(Guid eventId, bool attending)
     {
-        var userEntity = await GetAndSaveUser();
+        var userEntity = await authService.GetAndSaveUser();
 
         var inList = userEntity.Attending.IndexOf(eventId) != -1;
         if (attending)
@@ -151,7 +185,7 @@ public class SchedulerController : ControllerBase
     [Route("/secret")]
     public async Task<ActionResult<string>> GetSecret()
     {
-        var user = await GetLoggedInUser();
+        var user = await authService.GetLoggedInUser();
         return Ok(user.Id.ToString());
     }
 
@@ -159,7 +193,7 @@ public class SchedulerController : ControllerBase
     [Route("/name")]
     public async Task<ActionResult<Attendee>> GetShare(string name)
     {
-        var user = await GetAndSaveUser();
+        var user = await authService.GetAndSaveUser();
         if (user.Name != name)
         {
             user.Name = name;
@@ -179,7 +213,7 @@ public class SchedulerController : ControllerBase
             return NotFound("Following non existent user"); 
         }
 
-        var user = await GetAndSaveUser();
+        var user = await authService.GetAndSaveUser();
 
         if (user.PublicId == publicId)
         {
@@ -204,7 +238,7 @@ public class SchedulerController : ControllerBase
     [Route("/unfollow")]
     public async Task<IActionResult> UnFollow(Guid publicId)
     {
-        var user = await GetAndSaveUser();
+        var user = await authService.GetAndSaveUser();
         var removeIndex = user.Following.IndexOf(publicId);
         if (removeIndex != -1)
         {
@@ -224,13 +258,22 @@ public class SchedulerController : ControllerBase
             return NotFound("SecretId is an invalid guid");
         }
 
-        var user = CreateUser(guid);
+        var user = authService.CreateUser(guid);
 
         await HttpContext.SignInAsync(Convert(user));
 
         return Ok();
     }
 
+    [HttpPost]
+    [Route("/clearUsers")]
+    public async Task<IActionResult> ClearUsers()
+    {
+        await userRepository.ClearAll();
+        return Ok();
+    }
+
+    /*
     private async Task<UserEntity> GetAndSaveUser()
     {
         var user = await GetLoggedInUser();
@@ -329,6 +372,7 @@ public class SchedulerController : ControllerBase
             await HttpContext.SignInAsync(claimsPrincipal);
         }
     }
+    */
 
     public static ClaimsPrincipal Convert(UserEntity user)
     {

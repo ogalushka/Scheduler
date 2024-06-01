@@ -56,5 +56,10 @@ namespace Scheduler.Db
             FilterDefinition<TValue> filter = _filterBuilder.Eq(e => e.Id, id);
             return dbCollection.DeleteOneAsync(filter);
         }
+
+        public Task ClearAll()
+        {
+            return dbCollection.DeleteManyAsync(_filterBuilder.Empty);
+        }
     }
 }

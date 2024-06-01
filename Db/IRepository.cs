@@ -18,8 +18,9 @@ namespace Scheduler.Db
 
         // TODO add nullability
         Task<TValue> Get(TKey id);
-        Task<TValue> Get(Expression<Func<TValue, bool>> filter);
+        Task<TValue?> Get(Expression<Func<TValue, bool>> filter);
         Task Remove(TKey id);
         Task Update(TValue enitity);
+        Task ClearAll();
     }
 }

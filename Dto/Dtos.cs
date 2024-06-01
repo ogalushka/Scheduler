@@ -9,27 +9,10 @@ public class Event
     public string Artist { get; set; } = "";
     public bool Attending { get; set; }
     public Attendee[] Attendees { get; set; } = Array.Empty<Attendee>();
-}
-
-public class Day
-{
+    public string Day { get; set; } = "";
     public DateOnly Date { get; set; }
-    public string WeekDay { get; set; } = "";
-
-    public Location[] Stages { get; set; } = Array.Empty<Location>();
-}
-
-public class Location
-{
-    public string Stage { get; set; } = "";
-    public Event[] Artists { get; set; } = Array.Empty<Event>();
-}
-
-public class Week
-{
-    public string WeekName { get; set; } = "";
-    public int WeekNumber { get; set; }
-    public Day[] Days { get; set; } =  Array.Empty<Day>();
+    public string Location { get; set; } = "";
+    public string Weekend { get; set; } = "";
 }
 
 public class Attendee
@@ -43,5 +26,5 @@ public class ScheduleDto
 {
     public Attendee? Me { get; set; } = null;
     public Attendee? Owner { get; set; } = null;
-    public Week[] Schedule { get; set; } = Array.Empty<Week>();
+    public Event[] Events { get; set; } = Array.Empty<Event>();
 }
